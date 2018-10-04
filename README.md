@@ -1,2 +1,2 @@
-# Custom_Homepage
-Custom Homepage for my web browser
+# Personal Website  
+A website to showcase projects, information, and business related stuff
