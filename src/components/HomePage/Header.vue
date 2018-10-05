@@ -1,5 +1,13 @@
 <template>
 <div class="header">
-<p>Hello</p>
+    <h1>NavBar</h1>
 </div>
 </template>
+<script>
+export default {
+  name: 'Header'
+}
+</script>
+
+<style>
+</style>

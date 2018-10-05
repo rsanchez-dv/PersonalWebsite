@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from '@/components/HomePage/HomePage'
 
 Vue.use(Router)
 
@@ -8,8 +7,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HomePage',
-      component: HomePage
+      name: 'Home',
+      component: () => import('@/components/HomePage/HomePage')
     }
   ]
 })

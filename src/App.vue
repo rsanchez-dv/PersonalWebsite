@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <p>asdfasdf</p>
+    <p>App.Vue Container</p>
+    <router-view></router-view>
   </div>
 </template>
 <script>
