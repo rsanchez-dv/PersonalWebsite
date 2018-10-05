@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
+    <p>asdfasdf</p>
   </div>
 </template>
 <script>
