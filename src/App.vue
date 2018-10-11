@@ -22,6 +22,6 @@ export default {
 
 }
 .topSpace{
-  padding: 2em;
+  padding: 1em;
 }
 </style>
