@@ -9,6 +9,21 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: () => import('@/components/HomePage/HomePage')
+    },
+    {
+      path: '/resume',
+      name: 'Resume',
+      component: () => import('@/components/Resume/Resume')
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: () => import('@/components/Projects/Projects')
+    },
+    {
+      path: '*',
+      name: 'NotFound',
+      component: () => import('@/components/404Error')
     }
   ]
 })

@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
+      <div class = "topSpace">
+    <p></p>
+  </div>
     <router-view></router-view>
   </div>
 </template>
@@ -17,5 +20,8 @@ export default {
 <style>
 #app {
 
+}
+.topSpace{
+  padding: 2em;
 }
 </style>

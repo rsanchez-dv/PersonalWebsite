@@ -38,7 +38,8 @@
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
+	position:absolute;
+	bottom: 0;
 	padding: 45px 50px;
 	margin-top: 80px;
 }
