@@ -1,7 +1,7 @@
 # My Personal Portfolio
 
 > A show case for my projects, business related stuff, and other stuff.
-
+![](sample.gif)
 ## Get Started
 
 This is the front-end of my personal website.  Just follow the following instructions to run the website locally.
