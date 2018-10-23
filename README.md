@@ -6,7 +6,7 @@
 Current Build as of: Oct 11, 2018
 ## Get Started
 
-This is the front-end of my personal website.  Just follow the following instructions to run the website locally.
+This is the front-end of my personal website.  Just follow the following instructions to run the website locally. Read the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki) for more information about this project. 
 
 ## Build Setup
 
