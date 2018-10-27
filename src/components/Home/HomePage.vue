@@ -1,7 +1,7 @@
 <template>
-<div>
-<slides/>
-</div>
+  <div>
+    <slides />
+  </div>
 </template>
 <script>
 import Slides from './Slides.vue'

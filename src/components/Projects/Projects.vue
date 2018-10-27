@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <p>This is the projects page.</p>
-  </div>
+  <Nothing/>
 </template>
 
 <script>
+import Nothing from '../Errors/Nothing.vue'
 export default {
-  name: 'Projects'
+  name: 'Projects',
+  components: {
+    Nothing
+  }
 }
 </script>
 
