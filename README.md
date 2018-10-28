@@ -2,11 +2,11 @@
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](sample.gif)
+![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/sample.gif)
 Current Build as of: Oct 11, 2018
 ## Get Started
 
-This is the front-end of my personal website.  Just follow the following instructions to run the website locally. Read the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki) for more information about this project. Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Updates-and-News) every now or then.
+This is the front-end of my personal website.  Just follow the following instructions to run the website locally. Read the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki) for more information about this project. 
 
 ## Build Setup
 
@@ -26,6 +26,7 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
+Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Updates-and-News) every now or then. What is listed down here is what has been deployed.
 * Version 0.1.0 (October 2018)
   * Skeletal Website is up.
 
