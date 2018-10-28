@@ -142,13 +142,68 @@
         </b-container>
       <!--Content Slide 4-->
       <b-container>
-          <h1>Projects</h1>
+          <h1>Experiences</h1>
           <hr>
+          <b-row>
+              <b-col sm="4">
+                  <img src="../../assets/images/mesalogo.jpg" fluid-grow>
+              </b-col>
+              <b-col sm="7">
+                  <b-row>
+                        <h3>Computer Science Tutor</h3>
+                  </b-row>
+                  <b-row class="location">El Camino Community College</b-row>
+                  <b-row class="location">Torrance, California</b-row>
+                  <b-row><p class="date">Jan 2016 - May 2018</p></b-row>
+                  <b-row>
+                      <p>Aliqua aliquip et do do. Adipisicing Lorem laborum veniam sunt sit nisi consequat sunt ad esse commodo. Do id labore velit sint elit incididunt nisi ad eu fugiat. Aliqua sit deserunt nostrud aliquip irure labore laboris in commodo Lorem quis sint dolor voluptate. Mollit officia ea ullamco eiusmod aute irure Lorem id minim id. Eu proident eu aute nostrud ea eiusmod laboris do dolor officia fugiat dolore sunt veniam.</p>
+                  </b-row>
+              </b-col>
+          </b-row>
       </b-container>
       <!--Content Slide 5-->
       <b-container>
-          <h1>Experiences</h1>
+          <h1>Projects</h1>
           <hr>
+          <p>Ipsum eiusmod laborum cupidatat ut consequat. Tempor elit dolor excepteur nostrud ut sint pariatur occaecat officia irure nostrud voluptate velit ad. Labore dolore est dolor deserunt labore dolor. Sit labore dolore cupidatat quis anim do sunt commodo minim sunt ullamco ea enim do.</p>
+          <b-card-group deck>
+        <b-card title="Card Title"
+          img-src="../../assets/images/nothing.jpg"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  <b-card title="Card Title"
+          img-src="../../assets/images/nothing.jpg"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  <b-card title="Card Title"
+          img-src="../../assets/images/nothing.jpg"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+    </b-card-group>
       </b-container>
     </div>
   </div>

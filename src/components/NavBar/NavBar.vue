@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="md" type="dark" id = "nav-color">
+  <b-navbar toggleable="md" type="dark" sticky id = "nav-color">
     <b-navbar-brand left to="/">Roberto Sanchez</b-navbar-brand>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
