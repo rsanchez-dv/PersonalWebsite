@@ -1,10 +1,11 @@
 <template>
   <div>
     <Selector />
-    <p v-if="!selected"><Nothing/></p>
+    <p v-if="!selected"><Blank/></p>
     <p v-if="selected === 'Whatfits'"> <Whatfits/></p>
     <p v-if="selected === 'CookBase'"> <CookBase/></p>
-    <p v-if="selected === 'CookieCoders'"> Cookbase has been choosen</p>
+    <p v-if="selected === 'CookieCoders'"><CookieCoders/></p>
+    <p v-if="selected === 'Personal'"><Personal/></p>
 
   </div>
 </template>
@@ -14,6 +15,9 @@ import Selector from './Selector.vue'
 import Whatfits from './ProjectsList/Whatfits.vue'
 import CookBase from './ProjectsList/CookBase.vue'
 import Nothing from '../Errors/Nothing.vue'
+import Personal from './ProjectsList/Personal.vue'
+import CookieCoders from './ProjectsList/CookieCoders.vue'
+import Blank from './ProjectsList/Blank.vue'
 import {serverBus} from '../../main.js'
 
 export default {
@@ -22,7 +26,10 @@ export default {
     Selector,
     Nothing,
     Whatfits,
-    CookBase
+    CookBase,
+    Personal,
+    CookieCoders,
+    Blank
   },
   data: function () {
     return {

@@ -12,31 +12,23 @@
                 @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
     >
-
-      <!-- Text slides with image -->
-      <b-carousel-slide caption="Selection of Projects"
-                        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-                        img-src="../../assets/backgrounds/altHome3.gif"
-      ><b-button class="btn btn-primary" href="https://github.com/Zyxel-1">Go To Github</b-button></b-carousel-slide>
-
-      <!-- Slides with custom text -->
-      <b-carousel-slide caption="Whatfits"
-                        text="A fitness social media application"
-                        img-src="../../assets/backgrounds/altHome3.gif"
-      ><b-button class="btn btn-primary" @click="projectSelected('Whatfits')">Show</b-button></b-carousel-slide>
-<!-- Slides with custom text -->
-      <b-carousel-slide caption="CookBase"
-                        text="A recipe managemnet web application"
-                        img-src="../../assets/backgrounds/altHome3.gif"
-      ><b-button class="btn btn-primary" @click="projectSelected('CookBase')">Show</b-button></b-carousel-slide>
-      <!-- Slides with custom text -->
-      <b-carousel-slide caption="CookieCoders"
-                        text="A fitness social media application"
-                        img-src="../../assets/backgrounds/altHome3.gif"
-      ><b-button class="btn btn-primary">Show</b-button></b-carousel-slide>
-
+      <b-carousel-slide caption="Selection of Projects" text="Click left or righ to see my projects and click the button to load below"
+        img-src="../../assets/backgrounds/altHome3.gif">
+      </b-carousel-slide>
+      <b-carousel-slide caption="Whatfits" text="A fitness social media application" img-src="../../assets/backgrounds/altHome3.gif">
+        <b-button class="btn btn-primary" @click="projectSelected('Whatfits')">Show</b-button>
+      </b-carousel-slide>
+      <b-carousel-slide caption="CookBase" text="A recipe managemnet web application" img-src="../../assets/backgrounds/altHome3.gif">
+        <b-button class="btn btn-primary" @click="projectSelected('CookBase')">Show</b-button>
+      </b-carousel-slide>
+      <b-carousel-slide caption="CookieCoders" text="A fitness social media application" img-src="../../assets/backgrounds/altHome3.gif">
+        <b-button class="btn btn-primary" @click="projectSelected('CookieCoders')">Show</b-button>
+      </b-carousel-slide>
+      <b-carousel-slide caption="Personal Website" text="The making of this site" img-src="../../assets/backgrounds/altHome3.gif">
+        <b-button class="btn btn-primary" @click="projectSelected('Personal')">Show</b-button>
+      </b-carousel-slide>
     </b-carousel>
-  </div>
+</div>
 </template>
 
 <script>

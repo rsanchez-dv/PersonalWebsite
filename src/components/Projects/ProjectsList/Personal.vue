@@ -1,33 +1,36 @@
 <template>
   <div class="container">
-    <h1>Whatfits: A fitness social media application</h1>
-    <img src="../../../assets/images/ErrorImages/nothing.jpg" fluid-grow>
+    <h1>Personal Website: Which is this website you're using</h1>
+    <img src="https://github.com/Zyxel-1/PersonalWebsite/raw/docs/documents/oct27Home.gif">
+    <figure class="center">
+      <figcaption>Fig. 1 - Homepage as of current</figcaption>
+    </figure>
     <br>
     <br>
     <div class="center">
       <b-row>
         <b-col class="labelStyle">Timeline:</b-col>
-        <b-col class="labelData">Sept 2017 - May 2018</b-col>
+        <b-col class="labelData">Oct 2018 - On Going</b-col>
       </b-row>
       <b-row>
         <b-col class="labelStyle">Project Type:</b-col>
-        <b-col class="labelData">Senior Project</b-col>
+        <b-col class="labelData">Personal</b-col>
       </b-row>
       <b-row>
         <b-col class="labelStyle">My Role:</b-col>
-        <b-col class="labelData">Team Lead, Full-Stack developer</b-col>
+        <b-col class="labelData">Front-End Developer</b-col>
       </b-row>
       <b-row>
         <b-col class="labelStyle">Tools:</b-col>
-        <b-col class="labelData">Bulma, Vue.js, ASP.NET WebAPI,and SQL</b-col>
+        <b-col class="labelData">BootStrap and Vue.js</b-col>
       </b-row>
       <b-row>
         <b-col class="labelStyle">Skills:</b-col>
-        <b-col class="labelData">Project Management, Documentation, Web Design,and Front-end / Back-end Development</b-col>
+        <b-col class="labelData">Project Management, Documentation, Web Design,and Front-end Development</b-col>
       </b-row>
       <br>
       <b-row class="center">
-        <a href="https://github.com/apham42/WhatFits">Click here for more about Whatfits</a><i class="fa fa-link"
+        <a href="https://github.com/Zyxel-1/CookBase">Click here for more about my Personal Website</a><i class="fa fa-link"
           aria-hidden="true"></i>
       </b-row>
     </div>
@@ -40,8 +43,8 @@
         ut incididunt nisi ad minim aliqua aute duis. Eu nisi anim culpa pariatur cupidatat exercitation mollit.</p>
     </div>
     <div>
-      <h2>Using Power of the Internet</h2>
-      <span class="subTitle">Trying to create a community for all</span>
+      <h2>Title</h2>
+      <span class="subTitle">Come up with a subTitle</span>
       <p>Enim deserunt est elit commodo sit est. Officia fugiat ea consequat nostrud irure dolore voluptate deserunt
         enim
         id eiusmod et. Ullamco consectetur consequat excepteur et laborum exercitation reprehenderit culpa dolore nulla
@@ -56,21 +59,16 @@
         Mollit nulla irure sit et.</p>
     </div>
     <div>
-      <h2>Our Solution</h2>
-      <span class="subTitle">Trying to solve what many have failed</span>
+      <h2>Solution</h2>
+      <span class="subTitle">SubTitle</span>
       <p>Tempor laborum officia deserunt elit culpa cupidatat et sint aute eu culpa mollit. Deserunt amet cupidatat est
         reprehenderit dolore esse. Aliquip enim reprehenderit dolore cupidatat irure amet. Aliquip ut nulla est
         exercitation. Non cillum fugiat minim duis officia. Mollit ex aliqua excepteur labore. Culpa Lorem minim fugiat
         in pariatur nostrud cillum nulla et sint sint excepteur nostrud Lorem.</p>
     </div>
     <div>
-      <h2>Reality</h2>
-      <span class="subTitle">We were way over our head...</span>
-      <p>Esse consectetur aliquip eu nulla occaecat sunt eiusmod labore esse culpa Lorem sunt minim. Nisi quis non officia dolore duis enim irure. Est excepteur aute ullamco labore ex sit nostrud consectetur duis proident magna. Aute mollit excepteur do minim aliqua cillum laboris exercitation laboris. Anim voluptate voluptate est laboris sint. Nulla fugiat esse ea quis culpa elit quis mollit non dolor. Consequat nostrud amet et adipisicing irure non ipsum nulla.</p>
-    </div>
-    <div>
       <h2>Final MVP</h2>
-      <span class="subTitle">4 Months of work later...</span>
+      <span class="subTitle">Eventually</span>
       <p>Commodo enim quis proident consectetur fugiat dolore exercitation dolore pariatur non sint. Fugiat ad sunt
         dolore pariatur officia magna reprehenderit elit est sunt veniam. Elit do laborum irure enim aliquip id anim
         laboris ipsum Lorem. Eu tempor occaecat in tempor aliqua sit.</p>
@@ -80,7 +78,7 @@
 
 <script>
 export default {
-  name: 'Whatfits',
+  name: 'Personal',
   components: {
   }
 }
@@ -97,7 +95,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+    max-width: 100%;
   height: auto;
 }
 .labelStyle {
@@ -114,6 +112,7 @@ img {
 a {
   text-align: center;
   color: black;
+  padding-right: 3px;
 }
 i{
   color: grey;

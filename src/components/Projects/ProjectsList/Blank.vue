@@ -1,14 +1,16 @@
 <template>
-  <div id="bg-color" >
-    <img id="center" src="../../assets/images/ErrorImages/nothing.jpg" alt="nothingImage">
+  <div id="bg-color">
     <br>
-    <h1 id="title"> Under Construction</h1>
+    <div>
+    <h1> Empty <i class="far fa-window-close"></i></h1>
+    <p class="center">Did you load a project from the carousel?</p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Nothing'
+  name: 'Blank'
 }
 </script>
 
@@ -23,6 +25,9 @@ img{
 }
 h1 {
   text-align: center;
+}
+p{
+    text-align:center;
 }
 #bg-color{
     background-color: #2b3033;
