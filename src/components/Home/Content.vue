@@ -20,7 +20,7 @@
           <hr>
           <b-row>
             <b-col sm="4">
-            <img src="../../assets/images/profile.gif">
+            <img src="../../assets/images/HomePageImages/profile.gif">
             </b-col>
             <b-col sm="7">
                 <b-row>
@@ -40,7 +40,7 @@
           <br>
           <b-row>
               <b-col sm="4">
-                  <img src="../../assets/images/csulbLogo.png" fluid-grow>
+                  <img src="../../assets/images/HomePageImages/csulbLogo.png" fluid-grow>
               </b-col>
               <b-col sm="7">
                   <b-row>
@@ -56,7 +56,7 @@
           <br>
           <b-row>
               <b-col sm="4">
-                  <img src="../../assets/images/elco.png" fluid>
+                  <img src="../../assets/images/HomePageImages/elco.png" fluid>
               </b-col>
               <b-col sm="7">
                   <b-row>
@@ -146,7 +146,7 @@
           <hr>
           <b-row>
               <b-col sm="4">
-                  <img src="../../assets/images/mesalogo.jpg" fluid-grow>
+                  <img src="../../assets/images/HomePageImages/mesalogo.jpg" fluid-grow>
               </b-col>
               <b-col sm="7">
                   <b-row>
@@ -168,7 +168,7 @@
           <p>Ipsum eiusmod laborum cupidatat ut consequat. Tempor elit dolor excepteur nostrud ut sint pariatur occaecat officia irure nostrud voluptate velit ad. Labore dolore est dolor deserunt labore dolor. Sit labore dolore cupidatat quis anim do sunt commodo minim sunt ullamco ea enim do.</p>
           <b-card-group deck>
         <b-card title="Card Title"
-          img-src="../../assets/images/nothing.jpg"
+          img-src="../../assets/images/ErrorImages/nothing.jpg"
           img-alt="Image"
           img-top
           tag="article"
@@ -180,7 +180,7 @@
     <b-button href="#" variant="primary">Go somewhere</b-button>
   </b-card>
   <b-card title="Card Title"
-          img-src="../../assets/images/nothing.jpg"
+          img-src="../../assets/images/ErrorImages/nothing.jpg"
           img-alt="Image"
           img-top
           tag="article"
@@ -192,7 +192,7 @@
     <b-button href="#" variant="primary">Go somewhere</b-button>
   </b-card>
   <b-card title="Card Title"
-          img-src="../../assets/images/nothing.jpg"
+          img-src="../../assets/images/ErrorImages/nothing.jpg"
           img-alt="Image"
           img-top
           tag="article"
