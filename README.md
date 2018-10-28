@@ -2,7 +2,7 @@
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/sample.gif)
+![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/oct27Home.gif)
 Current Build as of: Oct 11, 2018
 ## Get Started
 
