@@ -16,6 +16,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
+export const serverBus = new Vue()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

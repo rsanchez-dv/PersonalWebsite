@@ -18,5 +18,8 @@ export default {
 #app {
 
 }
-
+.center {
+  margin: auto;
+  width: 50%;
+}
 </style>

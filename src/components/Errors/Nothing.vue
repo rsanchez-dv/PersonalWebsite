@@ -1,6 +1,6 @@
 <template>
   <div id="bg-color" >
-    <img  id="center" src="../../assets/images/nothing.jpg" alt="nothingImage">
+    <img id="center" src="../../assets/images/ErrorImages/nothing.jpg" alt="nothingImage">
     <br>
     <h1 id="title"> Under Construction</h1>
   </div>
