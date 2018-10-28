@@ -1,14 +1,17 @@
 <template>
   <div>
-    <slides />
+    <Content/>
+    <Footer/>
   </div>
 </template>
 <script>
-import Slides from './Slides.vue'
+import Footer from '@/components/Footer/Footer.vue'
+import Content from './Content.vue'
 export default {
   name: 'HomePage',
   components: {
-    Slides
+    Footer,
+    Content
   }
 }
 </script>

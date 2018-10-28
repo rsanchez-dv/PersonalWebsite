@@ -4,10 +4,38 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./node_modules/sal.js/dist/sal.css" />
     <section>
       <div data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+        <br>
+        <br>
         <h1>Hello World!</h1>
         <br>
         <h3>Blah, Blah, Blah, Scroll down for more</h3>
       </div>
+    </section>
+    <section>
+     <div class="left" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <h3>Second slide</h3>
+            <br>
+            <p>Commodo duis amet dolor ipsum labore laborum voluptate. Mollit sunt amet ipsum dolore pariatur eu.
+                Excepteur enim exercitation Lorem eiusmod consectetur voluptate eiusmod aute. Non excepteur irure ut
+                consectetur mollit laborum exercitation. Officia nostrud tempor irure voluptate in ea mollit eu
+                cupidatat non aliqua qui. Sint sint sit voluptate esse nisi labore.</p>
+        </div>
+        <div class="right" data-sal-duration="1200" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <img src="../../assets/images/profile.gif">
+        </div>
+    </section>
+    <section>
+     <div class="left" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <h3>Second slide</h3>
+            <br>
+            <p>Commodo duis amet dolor ipsum labore laborum voluptate. Mollit sunt amet ipsum dolore pariatur eu.
+                Excepteur enim exercitation Lorem eiusmod consectetur voluptate eiusmod aute. Non excepteur irure ut
+                consectetur mollit laborum exercitation. Officia nostrud tempor irure voluptate in ea mollit eu
+                cupidatat non aliqua qui. Sint sint sit voluptate esse nisi labore.</p>
+        </div>
+        <div class="right" data-sal-duration="1200" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <img src="../../assets/images/profile.gif">
+        </div>
     </section>
   </div>
 </template>
@@ -78,12 +106,12 @@ section:nth-of-type(3) img {
   width: 250px;
 }
 
-section:nth-of-type(3) {
+section:nth-of-type(4) {
   background: #fff;
   grid-template-columns: repeat(3, 33.3%);
 }
 
-section:nth-of-type(3) p {
+section:nth-of-type(4) p {
   width: 50%;
 }
 /*# sourceMappingURL=main.css.map */
