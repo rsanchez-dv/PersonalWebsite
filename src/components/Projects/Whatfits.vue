@@ -5,7 +5,7 @@
 <script>
 import Nothing from '../Errors/Nothing.vue'
 export default {
-  name: 'Projects',
+  name: 'Whatfits',
   components: {
     Nothing
   }

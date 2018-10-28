@@ -1,14 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <NavBar></NavBar>
-      <div class = "topSpace">
-    <p></p>
-  </div>
     <router-view></router-view>
   </div>
 </template>
 <script>
-import NavBar from '@/components/HomePage/NavBar.vue'
+import NavBar from '@/components/NavBar/NavBar.vue'
 export default {
   name: 'App',
   components: {
@@ -21,7 +18,5 @@ export default {
 #app {
 
 }
-.topSpace{
-  padding: 1em;
-}
+
 </style>

@@ -4,11 +4,13 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
+  linkActiveClass: 'is-active',
   routes: [
     {
       path: '/',
       name: 'Home',
-      component: () => import('@/components/HomePage/HomePage')
+      component: () => import('@/components/Home/HomePage')
     },
     {
       path: '/resume',
@@ -23,7 +25,7 @@ export default new Router({
     {
       path: '*',
       name: 'NotFound',
-      component: () => import('@/components/404Error')
+      component: () => import('@/components/Errors/404Error')
     }
   ]
 })

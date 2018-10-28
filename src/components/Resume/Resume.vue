@@ -1,12 +1,16 @@
 <template>
   <div>
-    <p>asdf</p>
+    <Nothing/>
   </div>
 </template>
 
 <script>
+import Nothing from '../Errors/Nothing.vue'
 export default {
-  name: 'Resume'
+  name: 'Resume',
+  components: {
+    Nothing
+  }
 }
 </script>
 
