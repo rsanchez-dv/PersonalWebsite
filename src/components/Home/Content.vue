@@ -1,18 +1,6 @@
 <template>
   <div>
-    <!-- Jumbotron   -->
-    <div class="jumbotron jumbotron-fluid">
-      <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
-        <source src="../../assets/backgrounds/mood.webm" data-src="" type="video/webm">
-      </video>
-      <div class="container text-white" id="titlePage">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-          featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      </div>
-    </div>
+
     <div class="container">
       <!--Content Slide 1-->
       <b-container>
@@ -234,11 +222,6 @@ window.onload = deferVideo
 .date {
   font-style: italic;
 }
-
-#titlePage {
-  padding-top: 25vh;
-}
-
 img {
   width: 10em;
   display: block;
@@ -247,29 +230,6 @@ img {
   width: 75%;
   padding-bottom: 2em;
 }
-
-.jumbotron {
-  position: relative;
-  overflow: hidden;
-  background-color: black;
-  height: 100vh;
-}
-
-.jumbotron video {
-  position: absolute;
-  object-fit: cover;
-  z-index: 1;
-  top: 0;
-  width: auto;
-  height: 100%;
-  opacity: 0.5;
-}
-
-.jumbotron .container {
-  z-index: 2;
-  position: relative;
-}
-
 #skillIcon {
   padding-right: 10px;
 }
