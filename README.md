@@ -3,7 +3,7 @@
 > A show case for my projects, business related stuff, and other stuff.
 
 ![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/nov01Home.gif)
-Current Build as of: Oct 27, 2018
+Current Build as of: Nov 01, 2018
 ## Get Started
 
 This is the front-end of my personal website.  Just follow the following instructions to run the website locally. Read the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki) for more information about this project. 
