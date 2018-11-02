@@ -1,17 +1,20 @@
 <template>
   <div>
+    <landing-page/>
     <Content/>
     <Footer/>
   </div>
 </template>
 <script>
-import Footer from '@/components/Footer/Footer.vue'
+import LandingPage from './LandingPage'
 import Content from './Content.vue'
+import Footer from '@/components/Footer/Footer.vue'
 export default {
   name: 'HomePage',
   components: {
-    Footer,
-    Content
+    LandingPage,
+    Content,
+    Footer
   }
 }
 </script>

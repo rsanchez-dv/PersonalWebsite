@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <Nothing/>
+  <div class="center">
+    <p>For a printable version, <a href="https://drive.google.com/open?id=1eupuLzMwrcFWGs9tJraTuZIc-gTV077O">click here</a></p>
+    <img fluid src="../../assets/Docs/resume.png">
   </div>
 </template>
 
@@ -16,5 +17,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+img {
+  width:100%;
+      height: auto;
 
+}
 </style>

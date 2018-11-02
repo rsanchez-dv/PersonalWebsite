@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>CookieCoders: A static web page</h1>
-    <img src="../../../assets/images/ErrorImages/nothing.jpg">
+    <img src="../../../assets/images/ProjectImages/CookieCoders/cookiecoders.png">
     <figure class="center">
       <figcaption>Fig. 1 - Homepage as of current</figcaption>
     </figure>

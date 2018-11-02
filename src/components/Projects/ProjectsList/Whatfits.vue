@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Whatfits: A fitness social media application</h1>
-    <img src="../../../assets/images/ErrorImages/nothing.jpg" fluid-grow>
+    <img src="../../../assets/images/ProjectImages/Whatfits/Whatfits.png" fluid-grow>
     <br>
     <br>
     <div class="center">
