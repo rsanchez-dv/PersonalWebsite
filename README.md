@@ -2,7 +2,7 @@
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/oct27Home.gif)
+![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/nov01Home.gif)
 Current Build as of: Oct 27, 2018
 ## Get Started
 
@@ -27,17 +27,21 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
-* Version 0.1.0 (October 2018)
+* Sept 28, 2018
   * Skeletal Website is up.
-* Version 0.5.0 (November 2018)
+* October 27, 2018
   * Projects Skeletal design is merged to master
   * Mobile Friendly
+* November 01 2018 
+  * Redid the landing page
+  * Resume now links to my resume on Google Drive
+  * Got rid of the carousel in projects and replaced with a Nav bar
 
 ## Known Bugs
 
 These are the known bugs I have encountered:
 
-1. Carousel is full screen ondesktop browsers. Might need to fix that.
+1. In Projects, when selecting a project the nav bar doesn't update the "active" when you click on a different tab.
 
 ## Built With
 
