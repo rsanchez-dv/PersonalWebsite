@@ -8,6 +8,7 @@
         <b-navbar-nav right>
           <b-nav-item  to="Projects">Projects</b-nav-item>
           <b-nav-item  href="https://drive.google.com/open?id=1eupuLzMwrcFWGs9tJraTuZIc-gTV077O">Resume</b-nav-item>
+          <b-nav-item  to="Contact">Contact</b-nav-item>
         </b-navbar-nav>
       </b-navbar-nav>
     </b-collapse>

@@ -7,9 +7,12 @@
     <div class="contain" id="landingPage">
       <h1>Hello World!</h1>
       <h2>Welcome to my website</h2>
+       <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
+      <!--
       <a href="#container" class="button scroll">
         <span class="scroll-down-arrow"></span>
       </a>
+      -->
     </div>
   </div>
 </template>
@@ -28,7 +31,7 @@ export default {
   position: relative;
   overflow: hidden;
   background-color: black;
-  height: 100vh;
+  height: 98vh;
 }
 
 .jumbotron video {
@@ -36,9 +39,9 @@ export default {
   object-fit: cover;
   z-index: 1;
   top: 0;
-  width: auto;
+  width: 100%;
   height: 100%;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .jumbotron .container {
@@ -53,135 +56,71 @@ export default {
   vertical-align: middle;
   margin: 5% 0;
 }
-
-h1,
-h2 {
-  font-size: 2.05em;
-  letter-spacing: 0.3em;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1.4em;
-}
-
-h2 {
-  font-weight: 300;
-  font-size: 0.9em;
-  letter-spacing: 0.2em;
-  opacity: 0.8;
-  margin-bottom: 30px;
-}
-
-.button.scroll {
-  padding: 8px;
-  background: #111;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  position: relative;
-}
-
-.scroll-down-arrow {
-  margin: .01em 0 0;
-  position: absolute;
-  left: 5px;
-  top: 7px;
-  -webkit-animation: bounce 1000ms ease infinite;
-  -moz-animation: bounce 1000ms ease infinite;
-  -o-animation: bounce 1000ms ease infinite;
-  animation: bounce 1000ms ease infinite;
-  -webkit-animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
-  -moz-animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
-  -ms-animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
-  animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 8px solid #f2f2f2;
-  content: "";
-}
-
-.button.scroll:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 0px 0px 3px white, inset 0px 0px 3px white;
-  padding: 2px;
-  z-index: -1;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+i {
   display: block;
-  content: "";
-  -webkit-animation: ring 1s alternate 0s infinite;
-  -moz-animation: ring 1s alternate 0s infinite;
-  -o-animation: ring 1s linear 0s infinite;
-  animation: ring 1s linear 0s infinite;
+  color: #fff;
+}
+.arrow {
+  padding-top: 10em;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
 }
 
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
 @-webkit-keyframes bounce {
-
-  0%,
-  100% {
-    top: 9px;
-    opacity: 0.5
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
-
-  25% {
-    top: 12px;
-    opacity: 1
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
   }
-
-  50% {
-    opacity: 0.8
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
-
 @keyframes bounce {
-
-  0%,
-  100% {
-    top: 9px;
-    opacity: 0.5
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
-
-  25% {
-    top: 12px;
-    opacity: 1
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
   }
-
-  50% {
-    opacity: 0.8
-  }
-}
-
-@-webkit-keyframes ring {
-
-  0%,
-  100% {
-    -webkit-transform: scale(1, 1);
-    opacity: 1
-  }
-
-  75% {
-    -webkit-transform: scale(1.2, 1.2);
-    opacity: 0.4
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
-
-@keyframes ring {
-
-  0%,
-  100% {
-    transform: scale(1, 1);
-    opacity: 1
-  }
-
-  75% {
-    transform: scale(1.2, 1.2);
-    opacity: 0.4
-  }
-}
-
 </style>

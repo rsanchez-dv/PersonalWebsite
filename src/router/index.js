@@ -18,6 +18,11 @@ export default new Router({
       component: () => import('@/components/Resume/Resume')
     },
     {
+      path: '/contact',
+      name: 'Contact',
+      component: () => import('@/components/Contact/Contact')
+    },
+    {
       path: '/projects',
       name: 'Projects',
       component: () => import('@/components/Projects/Projects')
