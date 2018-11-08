@@ -34,25 +34,31 @@
     <div>
       <h2>Context</h2>
       <p>CookieCoders is a website designed and built for CECS 470 - Web development class towards the end of the
-        semester. Our goal was to create an informative website for our client who wanted to create a summer coding camp for the youth. This project is a collaborative effort between George Cheng, Howard Cho, Jennifer Nguyen, Mukesh
+        semester. Our goal was to create an informative website for our client who wanted to create a summer coding
+        camp for the youth. This project is a collaborative effort between George Cheng, Howard Cho, Jennifer Nguyen,
+        Mukesh
         Sehdev, and Roberto Sanchez. </p>
     </div>
     <div>
       <h2>Design</h2>
       <span class="subTitle">A simple walkthrough</span>
-      <p>We had around 3 weeks to design and build a website with the restriction of not being able to use any frameworks to
-         incorporate HTML, CSS, Javascript, PHP, and MySQL to make a functional website. We decided to arrange the website into muliple pages each depicting certain information that would be useful for the visitor.</p>
-         <img src="../../../assets/images/ProjectImages/CookieCoders/sitemap.png" alt="Site Map image">
+      <p>We had around 3 weeks to design and build a website with the restriction of not being able to use any
+        frameworks to
+        incorporate HTML, CSS, Javascript, PHP, and MySQL to make a functional website. We decided to arrange the
+        website into muliple pages each depicting certain information that would be useful for the visitor.</p>
+      <img src="../../../assets/images/ProjectImages/CookieCoders/sitemap.png" alt="Site Map image">
       <figure class="center">
         <figcaption>Fig. 1 - Sitemap of the website.</figcaption>
       </figure>
-      <p>The following diagram illustrates the validation process for the two forms on the website. Each form validates that data on both the client side using Javascript and then handled in PHP before being stored in the database.</p>
+      <p>The following diagram illustrates the validation process for the two forms on the website. Each form validates
+        that data on both the client side using Javascript and then handled in PHP before being stored in the database.</p>
       <img src="../../../assets/images/ProjectImages/CookieCoders/flowchart.png" alt="Flow chart of validations.">
       <figure class="center">
         <figcaption>Fig. 2 - A workflow of validation.</figcaption>
       </figure>
       <h3>Mockups</h3>
-      <p>These are mockups to illustrate the solution to our instructor and client. Using FluidUI's tools to create these mockups it gave a framework for each team members to design and build thier parts for the project.</p>
+      <p>These are mockups to illustrate the solution to our instructor and client. Using FluidUI's tools to create
+        these mockups it gave a framework for each team members to design and build thier parts for the project.</p>
       <img src="../../../assets/images/ProjectImages/CookieCoders/homepage.png" alt="Mockup of the homepage.">
       <figure class="center">
         <figcaption>Fig. 3 - Draft of the homepage used for submission to instructor and client.</figcaption>
@@ -82,12 +88,14 @@
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Mukesh Sehdev.</figcaption>
       </figure>
-      <p>The project was hosted on the school's webserver used in the class. During our presentation we had to walkthrough each page and discuss the purpose of each page.</p>
-    <img src="../../../assets/images/ProjectImages/CookieCoders/DesciptionFinal.png" alt="Description Final page">
+      <p>The project was hosted on the school's webserver used in the class. During our presentation we had to
+        walkthrough each page and discuss the purpose of each page.</p>
+      <img src="../../../assets/images/ProjectImages/CookieCoders/DesciptionFinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Howard Cho.</figcaption>
       </figure>
-      <p>The description page hosted several sample games made in javascript and videos on what content people will be doing in these camps.</p>
+      <p>The description page hosted several sample games made in javascript and videos on what content people will be
+        doing in these camps.</p>
       <img src="../../../assets/images/ProjectImages/CookieCoders/registerFinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Roberto Sanchez.</figcaption>

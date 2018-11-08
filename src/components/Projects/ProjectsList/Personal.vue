@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h1>Personal Website: Which is this website you're using</h1>
-    <img src="https://github.com/Zyxel-1/PersonalWebsite/raw/docs/documents/oct27Home.gif">
+    <h1>Personal Website: A showcase of projects and information</h1>
+    <img src="..//..//..//assets/images/ProjectImages/PersonalWebsite/personalScreen.png" alt="Website on a mac.">
     <figure class="center">
-      <figcaption>Fig. 1 - Homepage as of current</figcaption>
+      <figcaption>Fig. 1 - Current homepage.</figcaption>
     </figure>
     <br>
     <br>
@@ -30,48 +30,33 @@
       </b-row>
       <br>
       <b-row class="center">
-        <a href="https://github.com/Zyxel-1/CookBase">Click here for more about my Personal Website</a><i class="fa fa-link"
+        <a href="https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates">Click here for more about my Personal Website</a><i class="fa fa-link"
           aria-hidden="true"></i>
       </b-row>
     </div>
     <div>
       <h2>Context</h2>
-      <p>Enim deserunt est elit commodo sit est. Officia fugiat ea consequat nostrud irure dolore voluptate deserunt
-        enim
-        id eiusmod et. Ullamco consectetur consequat excepteur et laborum exercitation reprehenderit culpa dolore nulla
-        aliqua fugiat. Laboris culpa nulla ut tempor tempor dolor nisi nulla esse nostrud. Ad cupidatat dolor mollit ad
-        ut incididunt nisi ad minim aliqua aute duis. Eu nisi anim culpa pariatur cupidatat exercitation mollit.</p>
+      <p>This is a personal project to show case my skills and work for people to see. I could of made a simple one page website but I wanted to test out my creativity and see what I can do. There are still somethings I would like to change but for now I am contempt with the design.
+      </p>
     </div>
     <div>
-      <h2>Title</h2>
-      <span class="subTitle">Come up with a subTitle</span>
-      <p>Enim deserunt est elit commodo sit est. Officia fugiat ea consequat nostrud irure dolore voluptate deserunt
-        enim
-        id eiusmod et. Ullamco consectetur consequat excepteur et laborum exercitation reprehenderit culpa dolore nulla
-        aliqua fugiat. Laboris culpa nulla ut tempor tempor dolor nisi nulla esse nostrud. Ad cupidatat dolor mollit ad
-        ut incididunt nisi ad minim aliqua aute duis. Eu nisi anim culpa pariatur cupidatat exercitation mollit.</p>
-      <img src="../../../assets/images/ErrorImages/nothing.jpg">
-    </div>
-    <div>
-      <h2>Problem Statement</h2>
-      <p>Tempor do ullamco laboris duis mollit est et laborum. Id et ex id nisi amet in ad. Laboris excepteur ea
-        pariatur dolor. Adipisicing eiusmod pariatur laboris laborum officia Lorem aliquip veniam esse exercitation.
-        Mollit nulla irure sit et.</p>
-    </div>
-    <div>
-      <h2>Solution</h2>
-      <span class="subTitle">SubTitle</span>
-      <p>Tempor laborum officia deserunt elit culpa cupidatat et sint aute eu culpa mollit. Deserunt amet cupidatat est
-        reprehenderit dolore esse. Aliquip enim reprehenderit dolore cupidatat irure amet. Aliquip ut nulla est
-        exercitation. Non cillum fugiat minim duis officia. Mollit ex aliqua excepteur labore. Culpa Lorem minim fugiat
-        in pariatur nostrud cillum nulla et sint sint excepteur nostrud Lorem.</p>
-    </div>
-    <div>
-      <h2>Final MVP</h2>
-      <span class="subTitle">Eventually</span>
-      <p>Commodo enim quis proident consectetur fugiat dolore exercitation dolore pariatur non sint. Fugiat ad sunt
-        dolore pariatur officia magna reprehenderit elit est sunt veniam. Elit do laborum irure enim aliquip id anim
-        laboris ipsum Lorem. Eu tempor occaecat in tempor aliqua sit.</p>
+      <h2>History</h2>
+      <span class="subTitle">Never satisfied</span>
+      <p>This project technically started back of the beginning of 2018 as a way to test out Github and learn basic commits and pushes. As time went on I started putting some stuff on here but I didn't really put too much effort until the beginning of October.</p>
+      <img src="../../../assets/images/ProjectImages/PersonalWebsite/sample.gif" alt="First version of the website homepage.">
+      <figure>
+        <figcaption>Fig. 1 - First version of the website. Decided to make the video full screen.</figcaption>
+      </figure>
+      <p></p>
+      <img src="../../../assets/images/ProjectImages/PersonalWebsite/mobile.gif" alt="First version of the website homepage.">
+      <figure>
+        <figcaption>Fig. 2 - Website now responsive to mobile browser.</figcaption>
+      </figure>
+      <p></p>
+      <img src="../../../assets/images/ProjectImages/PersonalWebsite/error.gif" alt="First version of the website homepage.">
+      <figure>
+        <figcaption>Fig. 3 - Custom Error page. Note: Netlify interupts this for some reason.</figcaption>
+      </figure>
     </div>
   </div>
 </template>
@@ -86,6 +71,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+figure {
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 h1 {
   text-align: center;
   padding-top: 1em;

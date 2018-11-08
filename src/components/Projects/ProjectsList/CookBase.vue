@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <h1>CookBase: An online recipe management system</h1>
-    <div class="loader">Loading...</div>
+    <img src="../../../assets/images/ProjectImages/CookBase/homepage.png" alt="Mockup homepage">
     <figure class="center">
-      <figcaption>Fig. 1 - Homepage not completed</figcaption>
+      <figcaption>Fig. 1 - Mockup of the homepage. Not finalized.</figcaption>
     </figure>
     <br>
     <br>
@@ -36,42 +36,21 @@
     </div>
     <div>
       <h2>Context</h2>
-      <p>Enim deserunt est elit commodo sit est. Officia fugiat ea consequat nostrud irure dolore voluptate deserunt
-        enim
-        id eiusmod et. Ullamco consectetur consequat excepteur et laborum exercitation reprehenderit culpa dolore nulla
-        aliqua fugiat. Laboris culpa nulla ut tempor tempor dolor nisi nulla esse nostrud. Ad cupidatat dolor mollit ad
-        ut incididunt nisi ad minim aliqua aute duis. Eu nisi anim culpa pariatur cupidatat exercitation mollit.</p>
-    </div>
-    <div>
-      <h2>Title</h2>
-      <span class="subTitle">Come up with a subTitle</span>
-      <p>Enim deserunt est elit commodo sit est. Officia fugiat ea consequat nostrud irure dolore voluptate deserunt
-        enim
-        id eiusmod et. Ullamco consectetur consequat excepteur et laborum exercitation reprehenderit culpa dolore nulla
-        aliqua fugiat. Laboris culpa nulla ut tempor tempor dolor nisi nulla esse nostrud. Ad cupidatat dolor mollit ad
-        ut incididunt nisi ad minim aliqua aute duis. Eu nisi anim culpa pariatur cupidatat exercitation mollit.</p>
-      <img src="../../../assets/images/ErrorImages/nothing.jpg">
-    </div>
-    <div>
-      <h2>Problem Statement</h2>
-      <p>Tempor do ullamco laboris duis mollit est et laborum. Id et ex id nisi amet in ad. Laboris excepteur ea
-        pariatur dolor. Adipisicing eiusmod pariatur laboris laborum officia Lorem aliquip veniam esse exercitation.
-        Mollit nulla irure sit et.</p>
-    </div>
-    <div>
-      <h2>Solution</h2>
-      <span class="subTitle">SubTitle</span>
-      <p>Tempor laborum officia deserunt elit culpa cupidatat et sint aute eu culpa mollit. Deserunt amet cupidatat est
-        reprehenderit dolore esse. Aliquip enim reprehenderit dolore cupidatat irure amet. Aliquip ut nulla est
-        exercitation. Non cillum fugiat minim duis officia. Mollit ex aliqua excepteur labore. Culpa Lorem minim fugiat
-        in pariatur nostrud cillum nulla et sint sint excepteur nostrud Lorem.</p>
-    </div>
-    <div>
-      <h2>Final MVP</h2>
-      <span class="subTitle">Eventually</span>
-      <p>Commodo enim quis proident consectetur fugiat dolore exercitation dolore pariatur non sint. Fugiat ad sunt
-        dolore pariatur officia magna reprehenderit elit est sunt veniam. Elit do laborum irure enim aliquip id anim
-        laboris ipsum Lorem. Eu tempor occaecat in tempor aliqua sit.</p>
+      <p>CookBase is a single page web application designed to organize, discover, and rate recipes. By creating such a
+        platform, we can create a community of chefs ranging from amateurs to professionals.
+        <br>
+        <br>
+        Project Scope / Target Audience:
+        <ul>
+          <li>This team will design and implement a single page web application (SPA) that will help users organize
+            recipes and discover new ones.</li>
+          <li>Will be supported on the latest (as of this writing) Google Chrome and Mozilla Firefox.</li>
+          <li>Initial audience - North America (Canada, Mexico, and the United States)</li>
+          <li>Application should handle between 200 - 500 concurrent users</li>
+          <li>Age limit above 13 years of age</li>
+        </ul>
+      </p>
+      <p>Currently under development. More information will be published here once the design phase has concluded.</p>
     </div>
   </div>
 </template>
