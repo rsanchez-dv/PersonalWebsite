@@ -74,7 +74,7 @@
         easily obtainable high caloric foods and
         you have a health crisis on your hand.
       </p>
-      <img src="https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2017/08/1140-dont-be-a-couch-potato-boy-with-book-watching-tv.imgcache.rev018345acfe99fdaf16c3aefe3b8a611f.jpg">
+      <img src="../../../assets/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
       <figure class="center">
         <figcaption>Fig.2 - Easy living ain't it?</figcaption>
       </figure>
@@ -82,36 +82,36 @@
     <div>
       <h2>Our Solution</h2>
       <span class="subTitle">Trying to solve what many have failed</span>
-      <img src="../../../assets/images/ProjectImages/Whatfits/Idea.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/Idea.png" alt="You plus a laptop or phone you can social activity">
       <p>We wanted to create a web application based around social media and finding either other people to workout in
         your area or to find
         activities that require physical excersize such as hiking or rock climbing. This is what we came up with:</p>
       <h3>Find people in your area</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/search.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/search.png" alt="Image of a man waving to others">
       <p>Current scope reduces the test market to Los Angeles and Orange Counties. If you registered an address within
         this area you
         can find other people within the same area. You can filter based on how close they are or by skill level
         (Beginner, Intermidiate, or Advance)
       </p>
       <h3>Chat and Personality</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/feature.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/feature.png" alt="Customize your profile and Chat online">
       <p>We create tools to customize your profile with information about you to let others know what your goals are
         and give
         a better idea who you are as a person. We also gave you the ability to communicate with possible matches to
         schedule activities.
       </p>
       <h3>Activities</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/activities.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/activities.png" alt="Sports, Running, Lifting, and hiking.">
       <p>When meeting new people you can schedule a wide varaity of activies. Its catered to what you are willling to
         do.</p>
       <h3>Track your growth and others</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/rate.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/rate.png" alt="Logging your workouts and rating other people.">
       <p>Provided is tools to track your workouts and see how you grown when you started. It also allows others to see
         your workout style. In addition
         you can rate the people you where around based on your personal experience with them.
       </p>
       <h3>Make lifelong friends</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/follow.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/follow.png" alt="You can follow other people on the webapp.">
       <p>You can follow the people you enjoyed and can continue to communicate with them easily.</p>
     </div>
     <div>
@@ -145,7 +145,7 @@
           <li>Ratings / ReviewS (TRIMMED) - Users review other people they met up with.</li>
         </ul>
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/time.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/time.png" alt="An image of a typical meeting.">
       <figure class="center">
         <figcaption>Fig.3 - "To achieve great things, two things are needed: a plan, and not quite enough time." –
           Leonard Bernstein</figcaption>
@@ -169,7 +169,7 @@
           <li>Strong Password Enforcer (Scope Creep #2)</li>
         </ul>
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/estimations.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/estimations.png" alt="Project Planning Image">
       <figure class="center">
         <figcaption>Fig.4 - Don't forget the estimations!</figcaption>
       </figure>
@@ -194,16 +194,16 @@
         to finish their
         part. Despite our efforts sprint 1 was rough.
       </p>
-      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/BasicRequirements.jpg">
+      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/BasicRequirements.jpg" alt="Photo of requirements for Registration">
       <figure class="center">
         <figcaption>Fig.5 - Whiteboarding requirements for sprint 1 tasks.</figcaption>
       </figure>
-      <img class="" src="../../../assets/images/ProjectImages/Whatfits/architecture.jpg">
+      <img class="" src="../../../assets/images/ProjectImages/Whatfits/architecture.jpg" alt="Whiteboard image of the entire architecture.">
       <figure class="center">
         <figcaption>Fig.6 - Whiteboarding a basic overview of our project. This was an old design since we moved to
           Vue.js, WebAPI, and MS SQL.</figcaption>
       </figure>
-      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/profile.jpg">
+      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/profile.jpg" alt="Photo of a whiteboard showing the user profile UI elements.">
       <figure class="center">
         <figcaption>Fig.7 - A snapshot of our brainstorming session where we were designing UI elements.</figcaption>
       </figure>
@@ -214,7 +214,7 @@
       </p>
       <p>Sprint 3 was a rush to get everything working together. We ran into issues such as configuring routes so our
         front-end and back-ends communicate effectively on the server.</p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/dev.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/dev.png" alt="Screenshot of github commits.">
       <figure class="center">
         <figcaption>Fig.8 - Busy semester</figcaption>
       </figure>
@@ -222,7 +222,7 @@
     <div>
       <h2>Final MVP</h2>
       <span class="subTitle">Months of work concluded</span>
-      <img src="../../../assets/images/ProjectImages/Whatfits/Whatfits.png">
+      <img src="../../../assets/images/ProjectImages/Whatfits/Whatfits.png" alt="Image of the homepage">
       <figure class="center">
         <figcaption>Fig. 9 - A screenshot of the finished homescreen. I wanted to use a video for the hero menu but ran
           out of time.</figcaption>
@@ -234,12 +234,13 @@
         our web app. After that we where to give a demonstration of each of our features.
       </p>
       <h3>Registration</h3>
-      <img src="https://i.imgur.com/oTfOzRJ.png">
+      <img src="https://i.imgur.com/oTfOzRJ.png" alt="Sample registration of username and password.">
       <figure class="center">
         <figcaption>Fig. 10 - A section of the registration page. Focusing on the strong password enforcer while using
           "password" as the password. I configured it to Troy Hunt's recommended sepecifications.</figcaption>
       </figure>
-      <p>Built and designed by Abram Villanueva, for registration we need the following data inorder to get a user to start using
+      <p>Built and designed by Abram Villanueva, for registration we need the following data inorder to get a user to
+        start using
         our application.
         <br>
         <ul>
@@ -261,13 +262,13 @@
           Google's Geocode API</a><i class="fa fa-link" aria-hidden="true"></i> to validate if the address is located
         within the specified area we are targeting.
       </p>
-      <img src="https://i.imgur.com/P2gJkO2.png">
+      <img src="https://i.imgur.com/P2gJkO2.png" alt="Image of security questions">
       <figure class="center">
         <figcaption>Fig. 11 - Screenshot of the password recovery section of registration.</figcaption>
       </figure>
       <p>Once a user inputs a valid username and password along with the other required information for registering you
         get the following modal once you're fully registered in our system.</p>
-      <img src="https://i.imgur.com/daWidTj.gif">
+      <img src="https://i.imgur.com/daWidTj.gif" alt="Registration modal gif">
       <figure class="center">
         <figcaption>Fig. 12 - Welcome to Whatfits! Login and start using our platform. I used the gif on that modal to
           make it more interesting.</figcaption>
@@ -275,14 +276,14 @@
       <h3>Authentication</h3>
       <p>After registering you can go to the home page and click/tap on the login button located at the top right and
         sign in with your credentials.</p>
-      <img src="https://i.imgur.com/txQJMni.png">
+      <img src="https://i.imgur.com/txQJMni.png" alt="Login screenshot.">
       <figure class="center">
         <figcaption>Fig. 13 - The login modal built and designed by Aaron Pham. Simple and clean.</figcaption>
       </figure>
       <p>Once the system authenticates you, you'll be redirected to the default profile page. Here you can start
         customizing your profile to give it a more personal touch. You can also start using any of the other features
         provided on the profile. </p>
-      <img src="https://i.imgur.com/OvoHzOa.png">
+      <img src="https://i.imgur.com/OvoHzOa.png" alt="Default profile image.">
       <figure class="center">
         <figcaption>Fig. 14 - Default profile page. I designed the profile section on the left. Everyone else's feature
           was placed on the profile to be used. </figcaption>
@@ -291,69 +292,81 @@
       <p>Built and designed by Aaron Pham, the password recovery tool uses a link on the login modal to recovery your
         password. Taking in a username it will bring out the three security questions to be answered by the user. Only
         if the three questions are successfully answered you can reset your password and try to login again. </p>
-      <img src="https://i.imgur.com/RUtaseN.png">
+      <img src="https://i.imgur.com/RUtaseN.png" alt="Password Recovery screenshot.">
       <figure class="center">
         <figcaption>Fig. 15 - Password Recovery page. Asks for username to get the questions from the server.</figcaption>
       </figure>
-      
-      <img src="https://i.imgur.com/hEuwgFr.png">
+      <img src="https://i.imgur.com/hEuwgFr.png" alt="Answering the recovery questions screenshot.">
       <figure class="center">
         <figcaption>Fig. 16 - Answer all three and you'll be presented with an input field for a new password.</figcaption>
       </figure>
       <h3>Edit Profile</h3>
-      <p>Built and designed by me, the edit profile console exists to customize your profile to your liking. Users can change their profile image, change name, change skill level, change gender, and add a little description. One thing that we were planning on scrapping was the email section.</p>
-      <img src="https://i.imgur.com/CidlkFT.png">
+      <p>Built and designed by me, the edit profile console exists to customize your profile to your liking. Users can
+        change their profile image, change name, change skill level, change gender, and add a little description. One
+        thing that we were planning on scrapping was the email section.</p>
+      <img src="https://i.imgur.com/CidlkFT.png" alt="Screenshot of edit profile.">
       <figure class="center">
-        <figcaption>Fig. 17 - Edit profile console. Once you changed the information you go back to your profile to see the changes.</figcaption>
+        <figcaption>Fig. 17 - Edit profile console. Once you changed the information you go back to your profile to see
+          the changes.</figcaption>
       </figure>
-      <p>This is an example of what is capable on the profile page. Once the page loads it will bring in data from the server and render it on the screen.</p>
-      <img src="https://i.imgur.com/SIDmAQ3.png">
+      <p>This is an example of what is capable on the profile page. Once the page loads it will bring in data from the
+        server and render it on the screen.</p>
+      <img src="https://i.imgur.com/SIDmAQ3.png" alt="Screenshot of an edited profile.">
       <figure class="center">
         <figcaption>Fig. 18 - A sample profile screen.</figcaption>
       </figure>
       <h3>Workout Logs</h3>
-      <p>Built and designed by George Cheng, Logs workouts based on whether its cardio or weightlifting and displays them on the user's profile</p>
-      <img src="https://i.imgur.com/5FskO1y.png">
+      <p>Built and designed by George Cheng, Logs workouts based on whether its cardio or weightlifting and displays
+        them on the user's profile</p>
+      <img src="https://i.imgur.com/5FskO1y.png" alt="Workout logger screenshot.">
       <figure class="center">
         <figcaption>Fig. 19 - Another sample profile now with a user inputing a workout log.</figcaption>
       </figure>
-      <img src="https://i.imgur.com/8R85y3j.png">
+      <img src="https://i.imgur.com/8R85y3j.png" alt="Closeup of workout logger.">
       <figure class="center">
         <figcaption>Fig. 20 - A close up of the workout logger.</figcaption>
       </figure>
-      <p>A user can have as many workout logs as they desire. We wanted to include more activites but that was out of our current scope at the time.
+      <p>A user can have as many workout logs as they desire. We wanted to include more activites but that was out of
+        our current scope at the time.
       </p>
       <h3>Chat</h3>
-      <p>Designed and built by Longcheng Chi, this feature enables users to communicate with each other within our application. Utilizing web sockets we can communincate in real time within our friend's list.</p>
-      <img src="https://i.imgur.com/LC2RaXB.png">
+      <p>Designed and built by Longcheng Chi, this feature enables users to communicate with each other within our
+        application. Utilizing web sockets we can communincate in real time within our friend's list.</p>
+      <img src="https://i.imgur.com/LC2RaXB.png" alt="Sample chat between two people.">
       <figure class="center">
         <figcaption>Fig. 21 - A chat between two users.</figcaption>
       </figure>
       <h3>Reviews</h3>
-      <p>Built and designed by George Cheng, users can leave reviews of other users on their profile page for other users to see.</p>
-      <img src="https://i.imgur.com/17vTcIg.png">
+      <p>Built and designed by George Cheng, users can leave reviews of other users on their profile page for other
+        users to see.</p>
+      <img src="https://i.imgur.com/17vTcIg.png" alt="Review screenshot.">
       <figure class="center">
         <figcaption>Fig. 22 - One review left by a person. Unfortunatly we left out the name of the reviewer.</figcaption>
       </figure>
       <h3>Search</h3>
-      <p>Designed and built by Abram Villanueva, this allows you to be social with other registered users. You input an address that you want to find users. Once found they appear on the search results with how far they are in miles. You can filter based on address, skill, and distance.</p>
-      <img src="https://i.imgur.com/wfrnfEP.png">
+      <p>Designed and built by Abram Villanueva, this allows you to be social with other registered users. You input an
+        address that you want to find users. Once found they appear on the search results with how far they are in
+        miles. You can filter based on address, skill, and distance.</p>
+      <img src="https://i.imgur.com/wfrnfEP.png" alt="SCreenshot of search results on Whatfits.">
       <figure class="center">
         <figcaption>Fig. 23 - Searching based on an address located in Los Angeles county.</figcaption>
       </figure>
       <h3>User Management</h3>
-      <p>Designed and built by me, the user management console is used exclusivly by an administrator to manage users. For creating new users we reuse the fields for registration however now sporting a new dropdown to set up whether its a general user or another admin.</p>
-      <img src="https://i.imgur.com/wIl9Ucm.png">
+      <p>Designed and built by me, the user management console is used exclusivly by an administrator to manage users.
+        For creating new users we reuse the fields for registration however now sporting a new dropdown to set up
+        whether its a general user or another admin.</p>
+      <img src="../../../assets/images/ProjectImages/Whatfits/adminUser.png" alt="Screenshot of creating new users.">
       <figure class="center">
         <figcaption>Fig. 24 - Creating a new user.</figcaption>
       </figure>
-      <p>Here an admin can enable and disable users based on certain criteria such as if the user in question is misbehaving or has been blocked by failed registrations (Not implemented in current scope).</p>
-      <img src="https://i.imgur.com/mHiU7g6.png">
+      <p>Here an admin can enable and disable users based on certain criteria such as if the user in question is
+        misbehaving or has been blocked by failed registrations (Not implemented in current scope).</p>
+      <img src="https://i.imgur.com/mHiU7g6.png" alt="Screenshot of enabling and disabling users.">
       <figure class="center">
         <figcaption>Fig. 26 - Enabling and disabling users.</figcaption>
       </figure>
       <p>An admin can also delete users especally for deleting dummy accounts used for testing.</p>
-      <img src="https://i.imgur.com/rWzoi3H.png">
+      <img src="https://i.imgur.com/rWzoi3H.png" alt="Screenshot of deleting users.">
       <figure class="center">
         <figcaption>Fig. 27 - Delete users. Only used for testing purposes.</figcaption>
       </figure>
@@ -365,21 +378,20 @@
 
 <script>
 export default {
-  name: 'Whatfits',
-  components: {
-  }
+  name: 'Whatfits'
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.cameraImage{
-width: 50%;
+.cameraImage {
+  width: 50%;
 }
+
 h1 {
   text-align: center;
   padding-top: 1em;
 }
+
 img {
   display: block;
   margin-left: auto;
@@ -387,33 +399,41 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 figcaption {
   font-style: italic;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .labelStyle {
   font-weight: bold;
 }
+
 .labelData {
   font-weight: 100;
-  color:grey;
+  color: grey;
 }
-.center{
+
+.center {
   margin: auto;
   width: 50%;
 }
+
 a {
   text-align: center;
   color: black;
 }
-i{
+
+i {
   color: grey;
 }
+
 p {
   padding-left: 5em;
   padding-right: 2em;
 }
+
 .subTitle {
   color: grey;
   font-style: italic;
