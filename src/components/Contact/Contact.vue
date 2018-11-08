@@ -1,6 +1,6 @@
 <template>
   <div id="bgColor">
-    <section class="center">
+    <section class=" container">
       <h1 class="center">Contact Me</h1>
       <hr>
       <b-container class="bv-example-row">
@@ -24,11 +24,10 @@ export default {
 <style scoped>
 #bgColor {
     background-color: #2b3033;
-    height: 92.3vh;
+    height: 100vh;
     color: white;
 }
 .title {
-    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 1em;
 }
@@ -37,7 +36,7 @@ h1 {
 }
 i {
     color: white;
-    font-size: 4em;
+    font-size: 3em;
 }
 hr {
     background-color: white;

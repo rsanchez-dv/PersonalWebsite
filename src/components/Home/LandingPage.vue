@@ -6,19 +6,15 @@
     </video>
     <div class="contain" id="landingPage">
       <h1>Hello World!</h1>
-      <h2>Welcome to my website</h2>
+      <p>Let's begin</p>
        <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
-      <!--
-      <a href="#container" class="button scroll">
-        <span class="scroll-down-arrow"></span>
-      </a>
-      -->
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'LandingPage'
+  name: 'LandingPage',
+  components: {}
 }
 </script>
 

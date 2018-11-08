@@ -16,7 +16,6 @@ export default {
 
 <style>
 #app {
-
 }
 .center {
   margin: auto;

@@ -1,10 +1,7 @@
 <template>
   <div class="container">
-    <h1>CookieCoders: A static web page</h1>
-    <img src="../../../assets/images/ProjectImages/CookieCoders/cookiecoders.png">
-    <figure class="center">
-      <figcaption>Fig. 1 - Homepage as of current</figcaption>
-    </figure>
+    <h1>CookieCoders: An informative page</h1>
+    <img src="../../../assets/images/ProjectImages/CookieCoders/cookiecoders.png" alt="Image of website on a fake mac book air">
     <br>
     <br>
     <div class="center">
@@ -89,7 +86,6 @@ export default {
 h1 {
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 img {
   display: block;
