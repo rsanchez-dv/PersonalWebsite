@@ -66,6 +66,11 @@
     </div>
     <div>
       <h2>Problem Statement</h2>
+      <span class="subTitle">A solution to a problem</span>
+      <img src="../../../assets/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
+      <figure class="center">
+        <figcaption>Fig.2 - Easy living ain't it?</figcaption>
+      </figure>
       <p>Current online applications focus more on people with experience working out or just cataloging workouts such
         as Strava or MyFitnessPal.
         Living in a modern world people can survive moving very little (especially if you can order food from your
@@ -74,10 +79,6 @@
         easily obtainable high caloric foods and
         you have a health crisis on your hand.
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
-      <figure class="center">
-        <figcaption>Fig.2 - Easy living ain't it?</figcaption>
-      </figure>
     </div>
     <div>
       <h2>Our Solution</h2>
