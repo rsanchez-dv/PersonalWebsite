@@ -7,7 +7,7 @@
       <b-navbar-nav class="ml-auto">
         <b-navbar-nav right>
           <b-nav-item  to="Projects">Projects</b-nav-item>
-          <b-nav-item  href="https://drive.google.com/open?id=1eupuLzMwrcFWGs9tJraTuZIc-gTV077O">Resume</b-nav-item>
+          <b-nav-item  href="https://drive.google.com/file/d/1TytfUogWf8z2GSGYGvCuQ1F2Ne0mLGDq/view">Resume</b-nav-item>
           <b-nav-item  to="Contact">Contact</b-nav-item>
         </b-navbar-nav>
       </b-navbar-nav>
