@@ -2,8 +2,9 @@
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](https://github.com/Zyxel-1/PersonalWebsite/blob/docs/documents/nov01Home.gif)
-Current Build as of: Nov 01, 2018
+![](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/docs/documents/homepage.png)
+Current Build as of: Nov 08, 2018
+
 ## Get Started
 
 This is the front-end of my personal website.  Just follow the following instructions to run the website locally. Read the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki) for more information about this project. 
@@ -27,21 +28,27 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
-* Sept 28, 2018
-  * Skeletal Website is up.
-* October 27, 2018
-  * Projects Skeletal design is merged to master
-  * Mobile Friendly
+* November 08, 2018
+  * Added personal information on the homepage
+  * Added project details on the projects section
+  * Added a contact tab on nav-bar
 * November 01 2018 
-  * Redid the landing page
-  * Resume now links to my resume on Google Drive
-  * Got rid of the carousel in projects and replaced with a Nav bar
+  - Redid the landing page
+  - Resume now links to my resume on Google Drive
+  - Got rid of the carousel in projects and replaced with a Nav bar
+* October 27, 2018
+  - Projects Skeletal design is merged to master
+  - Mobile Friendly
+* Sept 28, 2018
+  - Skeletal Website is up.
 
 ## Known Bugs
 
 These are the known bugs I have encountered:
 
-1. In Projects, when selecting a project the nav bar doesn't update the "active" when you click on a different tab.
+1. When loading a specific page via the url it might throw an error. This is probably because how Netlify sets up the project. So as of right now you can't rsanchez92.com/asdf or /projects you have to go from the homepage to projects.
+2. When scrolling down on the home page and you click on projects it won't start you from the top but way down on the screen.
+3. The bouncing arrow on the landing page might not show up depending on the resolution of your browser.
 
 ## Built With
 

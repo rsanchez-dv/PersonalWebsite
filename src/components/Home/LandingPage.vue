@@ -5,8 +5,8 @@
       <source src="../../assets/backgrounds/mood.webm" data-src="" type="video/webm">
     </video>
     <div class="contain" id="landingPage">
-      <h1>Hello World!</h1>
-      <p>Let's begin</p>
+      <h1 class="title">Hello World!</h1>
+      <h4>Let's begin</h4>
        <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
     </div>
   </div>
@@ -23,6 +23,22 @@ export default {
   padding-top: 26vh;
 }
 
+#landingPage {
+  padding-top: 26vh;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  margin: 5% 0;
+}
+
+h1,
+h2 {
+  font-size: 2.05em;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.4em;
+}
 .jumbotron {
   position: relative;
   overflow: hidden;
@@ -45,19 +61,12 @@ export default {
   position: relative;
 }
 
-#landingPage {
-  padding-top: 26vh;
-  text-align: center;
-  color: white;
-  vertical-align: middle;
-  margin: 5% 0;
-}
 i {
   display: block;
   color: #fff;
 }
 .arrow {
-  padding-top: 10em;
+  padding-top: 35vh;
   position: relative;
   bottom: 0;
   left: 50%;
