@@ -166,7 +166,7 @@
           <b-col>
             <ul>
               <li>Git / Github</li>
-              <li>Amazone Web Services</li>
+              <li>Amazon Web Services</li>
               <li>Agile / Scrum</li>
               <li>Linux</li>
             </ul>
