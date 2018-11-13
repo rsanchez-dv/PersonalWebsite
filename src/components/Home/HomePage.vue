@@ -1,14 +1,15 @@
 <template>
   <div>
-    <landing-page/>
-    <Content/>
-    <Footer/>
+      <landing-page />
+      <Content/>
+      <Footer/>
   </div>
 </template>
 <script>
 import LandingPage from './LandingPage'
-import Content from './Content.vue'
+import Content from './Content'
 import Footer from '@/components/Footer/Footer.vue'
+
 export default {
   name: 'HomePage',
   components: {
@@ -20,5 +21,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

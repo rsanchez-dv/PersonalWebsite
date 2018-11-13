@@ -5,20 +5,34 @@
       <source src="../../assets/backgrounds/mood.webm" data-src="" type="video/webm">
     </video>
     <div class="contain" id="landingPage">
-      <h1 class="title">Hello World!</h1>
-      <h4>Let's begin</h4>
+      <h1  data-sal="slide-up"
+ data-sal-delay="300"
+ data-sal-duration="1200"
+ data-sal-easing="ease-out-bounce" class="title">Hello World!</h1>
+      <h4  data-sal="slide-up"
+ data-sal-delay="700"
+ data-sal-duration="1200"
+ data-sal-easing="ease-out-bounce">Let's begin</h4>
        <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
     </div>
   </div>
 </template>
 <script>
+import sal from 'sal.js'
 export default {
   name: 'LandingPage',
-  components: {}
+  components: {
+    sal
+  },
+  mounted () {
+    sal()
+  }
 }
 </script>
 
 <style scoped>
+@import "../../../node_modules/sal.js/dist/sal.css";
+
 #titlePage {
   padding-top: 26vh;
 }
@@ -44,6 +58,7 @@ h2 {
   overflow: hidden;
   background-color: black;
   height: 98vh;
+  margin-bottom: 0px;
 }
 
 .jumbotron video {
