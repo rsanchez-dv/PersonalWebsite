@@ -81,9 +81,9 @@ i {
   color: #fff;
 }
 .arrow {
-  padding-top: 35vh;
-  position: relative;
-  bottom: 0;
+  padding-top: 0;
+  position: absolute;
+  bottom: 2.5em;
   left: 50%;
   margin-left: -20px;
   width: 40px;

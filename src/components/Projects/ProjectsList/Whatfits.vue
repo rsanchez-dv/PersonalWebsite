@@ -15,7 +15,7 @@
       </b-row>
       <b-row>
         <b-col class="labelStyle">My Role:</b-col>
-        <b-col class="labelData">Team Lead, Full-Stack developer</b-col>
+        <b-col class="labelData">Team Lead and Full-Stack developer</b-col>
       </b-row>
       <b-row>
         <b-col class="labelStyle">Tools:</b-col>
@@ -60,16 +60,16 @@
       </p>
       <img src="../../../assets/images/ProjectImages/Whatfits/proposal.png" alt="Screenshot of the project proposal">
       <figure class="center">
-        <figcaption>Fig.1 - Original proposal that was approved by instructor. Many things will change within the
+        <figcaption>Fig. 1 - Original proposal that was approved by instructor. Many things will change within the
           upcoming weeks.</figcaption>
       </figure>
     </div>
     <div>
       <h2>Problem Statement</h2>
-      <span class="subTitle">A solution to a problem</span>
+      <span class="subTitle">Whats the problem?</span>
       <img src="../../../assets/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
       <figure class="center">
-        <figcaption>Fig.2 - Easy living ain't it?</figcaption>
+        <figcaption>Fig. 2 - Society</figcaption>
       </figure>
       <p>Current online applications focus more on people with experience working out or just cataloging workouts such
         as Strava or MyFitnessPal.
@@ -82,7 +82,7 @@
     </div>
     <div>
       <h2>Our Solution</h2>
-      <span class="subTitle">Trying to solve what many have failed</span>
+      <span class="subTitle">Let's try solving this</span>
       <img src="../../../assets/images/ProjectImages/Whatfits/Idea.png" alt="You plus a laptop or phone you can social activity">
       <p>We wanted to create a web application based around social media and finding either other people to workout in
         your area or to find

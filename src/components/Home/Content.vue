@@ -1,15 +1,16 @@
 <template>
   <div>
     <!--Content Slide 1 - About Me -->
-    <section id="aboutMe">
-      <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">About
-          Me</h1>
-          <br>
+    <section class="slideCenter">
+      <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">About Me</h1>
+
       <b-container id="aboutMe">
         <b-row data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">
           <br>
           <b-col sm="4">
+            <!--
             <img src="../../assets/images/HomePageImages/profile.gif">
+            -->
           </b-col>
           <b-col sm="7">
             <b-row>
@@ -21,14 +22,15 @@
               </p>
             </b-row>
             <b-row data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">
-              <p>Outside of developing and researching I usually enjoy being outside and enjoying nature, playing video games, and watching movies. </p>
+              <p>Outside of developing and researching I usually enjoy being outside and enjoying nature, playing video
+                games, and watching movies. </p>
             </b-row>
           </b-col>
         </b-row>
       </b-container>
     </section>
     <!--Content Slide 2 - Education-->
-    <section id="education">
+    <section class="slideCenter">
       <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">Education</h1>
       <br>
       <b-container>
@@ -67,8 +69,9 @@
       </b-container>
     </section>
     <!--Content Slide 3 - Education-->
-    <section id="education">
-      <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">Education Cont.</h1>
+    <section class="slideCenter">
+      <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">Education
+        Cont.</h1>
       <br>
       <b-container>
         <b-row data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">
@@ -89,16 +92,6 @@
               <p>
                 Courses taken:
                 <br>
-                Mathematics:
-                <ul>
-                  <li>Math 150 - Elementary Probability and Statistics</li>
-                  <li>Math 190 - Single Variable Calculus and Analytical Geometry I</li>
-                  <li>Math 191 - Single Variable Calculus and Analytical Geometry II</li>
-                  <li>Math 220 - Multi Variable Calculus</li>
-                  <li>Math 270 - Differential Equations with Linear Algebra</li>
-                  <li>Math 210 - Introduction to Discrete Structures</li>
-                </ul>
-                <br>
                 Computer Science:
                 <ul>
                   <li>CSCI 1 Problem Solving and Program Design using C++</li>
@@ -118,7 +111,7 @@
       </b-container>
     </section>
     <!--Content Slide 4 - Skills-->
-    <section id="skills">
+    <section class="slideCenter">
       <b-container>
         <h1 data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">Skills</h1>
         <hr>
@@ -181,7 +174,7 @@
           <b-col>
             <ul>
               <li>Git / Github</li>
-              <li>Amazone Web Services</li>
+              <li>Amazon Web Services</li>
               <li>Agile / Scrum</li>
               <li>Linux</li>
             </ul>
@@ -191,7 +184,7 @@
     </section>
 
     <!--Content Slide 5 - Experience-->
-    <section id="experience">
+    <section class="slideCenter">
       <b-container>
         <h1 data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">Experiences</h1>
         <b-row data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">
@@ -225,10 +218,11 @@
     </section>
 
     <!--Content Slide 6 - Projects-->
-    <section id="projects">
+    <section class="slideCenter">
       <b-container>
-        <h1 data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce" >Projects</h1>
-        <p data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">These are a small sample of projects that I have been involved in. To see my complete list of work check out
+        <h1 data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">Projects</h1>
+        <p data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">These
+          are a small sample of projects that I have been involved in. To see my complete list of work check out
           my <a href="https://github.com/Zyxel-1">Github</a> or a selection of projects on the projects tab.</p>
         <b-card-group deck data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">
           <b-card title="Whatfits" img-src="../../assets/images/HomePageImages/whatfitsIcon.png" img-alt="Image"
@@ -267,12 +261,7 @@ export default {
     sal
   },
   mounted () {
-    sal(
-      {
-        threshold: 1,
-        once: false
-      }
-    )
+    sal()
   }
 }
 
@@ -281,24 +270,8 @@ export default {
 <style scoped>
 @import "../../../node_modules/sal.js/dist/sal.css";
 @import "../../assets/CSS/main.css";
-#aboutMe {
+.slideCenter {
   padding-top: 10%;
-}
-#education {
-padding-top: 10%;
-
-}
-#skills{
-padding-top: 10%;
-
-}
-#experience {
-padding-top: 10%;
-
-}
-#projects {
-  padding-top: 10%;
-
 }
 .location {
   font-style: italic;
