@@ -3,7 +3,6 @@
     <!--Content Slide 1 - About Me -->
     <section class="slideCenter">
       <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">About Me</h1>
-
       <b-container id="aboutMe">
         <b-row data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-out-bounce">
           <br>
@@ -182,7 +181,6 @@
         </b-row>
       </b-container>
     </section>
-
     <!--Content Slide 5 - Experience-->
     <section class="slideCenter">
       <b-container>
@@ -216,7 +214,6 @@
         </b-row>
       </b-container>
     </section>
-
     <!--Content Slide 6 - Projects-->
     <section class="slideCenter">
       <b-container>
@@ -250,7 +247,6 @@
         <br>
       </b-container>
     </section>
-
   </div>
 </template>
 <script>
@@ -264,7 +260,6 @@ export default {
     sal()
   }
 }
-
 </script>
 
 <style scoped>
