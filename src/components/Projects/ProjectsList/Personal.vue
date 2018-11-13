@@ -57,6 +57,10 @@
       <figure>
         <figcaption>Fig. 3 - Custom Error page. Note: Netlify interupts this for some reason.</figcaption>
       </figure>
+      <img src="../../../assets/images/ProjectImages/PersonalWebsite/Nov12Version.gif" alt="Latest version of the website homepage.">
+      <figure>
+        <figcaption>Fig. 4 - Redid the homepage. Looks more modern and sleek. Broke compatibility with mobile though...</figcaption>
+      </figure>
     </div>
   </div>
 </template>

@@ -15,10 +15,4 @@ export default {
 </script>
 
 <style>
-#app {
-}
-.center {
-  margin: auto;
-  width: 50%;
-}
 </style>
