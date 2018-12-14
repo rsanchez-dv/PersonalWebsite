@@ -1,20 +1,29 @@
 <template>
-  <div id="bgColor">
     <section class=" container">
-      <h1 class="center">Contact Me</h1>
+      <br>
+      <h1 class="text-center">Contact Me</h1>
       <hr>
-      <b-container class="bv-example-row">
-        <b-col>
-          <b-row><a href="https://www.linkedin.com/in/robertosanchez92/"><i class="fab fa-linkedin"><span class="title">LinkedIn</span></i></a></b-row>
-          <br>
-          <b-row><a href="mailto:rsanchez92@live.com?Subject=Hello"><i class="fas fa-envelope-square"><span class="title">Email</span></i></a></b-row>
-          <br>
-          <b-row><a href="https://github.com/Zyxel-1"><i class="fab fa-github-square"><span class="title">Github</span></i></a></b-row>
-        </b-col>
-      </b-container>
+      <b-card-group deck class="mb-3">
+        <b-card border-variant="secondary" img-alt="image of email" img-src="https://ppc.land/wp-content/uploads/gmail.png"
+          align="center">
+          <p class="card-text">For direct communication to me.</p>
+          <b-button href="mailto:rsanchez92@live.com?Subject=Hello" variant="primary">Email</b-button>
+        </b-card>
+        <b-card border-variant="secondary" img-alt="image of linkedin" img-src="https://lh3.googleusercontent.com/z0gMa0aRAkLxjS-lVaSOO1Ygb48rttOcR5iRpgJPTM6_enkfeCuN37JWm_9qcHJaJw"
+          align="center">
+          <p class="card-text">A shorter version of this website or for networking.</p>
+          <b-button href="https://www.linkedin.com/in/robertosanchez92/" variant="primary">LinkedIn</b-button>
+        </b-card>
+        <b-card border-variant="secondary" img-alt="image of github" img-src="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png"
+          align="center">
+          <p class="card-text">My place of creativity and work. Mostly updated weekly.</p>
+          <b-button href="https://github.com/Zyxel-1" variant="primary">Github</b-button>
+        </b-card>
+      </b-card-group>
+      <p>Note: Any other account/website not listed here is not mine nor represent me.</p>
     </section>
-  </div>
 </template>
+
 <script>
 export default {
   name: 'Contact'
@@ -22,27 +31,5 @@ export default {
 </script>
 
 <style scoped>
-#bgColor {
-    background-color: #2b3033;
-    height: 100vh;
-    color: white;
-}
-.title {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1em;
-}
-h1 {
-    color: white;
-}
-i {
-    color: white;
-    font-size: 3em;
-}
-hr {
-    background-color: white;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
+
 </style>

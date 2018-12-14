@@ -1,19 +1,15 @@
 <template>
   <!-- Jumbotron   -->
-  <div class="jumbotron jumbotron-fluid" >
+  <div class="jumbotron jumbotron-fluid">
     <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
       <source src="../../assets/backgrounds/mood.webm" data-src="" type="video/webm">
     </video>
     <div class="contain" id="landingPage">
-      <h1  data-sal="slide-up"
- data-sal-delay="300"
- data-sal-duration="1200"
- data-sal-easing="ease-out-bounce" class="title">Hello World!</h1>
-      <h4  data-sal="slide-up"
- data-sal-delay="700"
- data-sal-duration="1200"
- data-sal-easing="ease-out-bounce">Let's begin</h4>
-       <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
+      <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce" class="title">Hello
+        World!</h1>
+      <h4 data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Let's
+        begin</h4>
+      <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
     </div>
   </div>
 </template>

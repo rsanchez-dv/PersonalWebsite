@@ -214,39 +214,6 @@
         </b-row>
       </b-container>
     </section>
-    <!--Content Slide 6 - Projects-->
-    <section class="slideCenter">
-      <b-container>
-        <h1 data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">Projects</h1>
-        <p data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">These
-          are a small sample of projects that I have been involved in. To see my complete list of work check out
-          my <a href="https://github.com/Zyxel-1">Github</a> or a selection of projects on the projects tab.</p>
-        <b-card-group deck data-sal="slide-up" data-sal-duration="1200" data-sal-delay="300" data-sal-easing="ease-out-bounce">
-          <b-card title="Whatfits" img-src="../../assets/images/HomePageImages/whatfitsIcon.png" img-alt="Image"
-            img-top tag="article" style="max-width: 20rem;" class="mb-2">
-            <p class="card-text">
-              A fitness social media web application. A collaborated effort between 5 other developers to create an
-              online community for gym goers.
-            </p>
-          </b-card>
-          <b-card title="Personal Website" img-src="../../assets/images/HomePageImages/personalIcon.png" img-alt="Image"
-            img-top tag="article" style="max-width: 20rem;" class="mb-2">
-            <p class="card-text">
-              A personal portfolio website designed an built by me. Pretty much an overview of the design and
-              development of this website.
-            </p>
-          </b-card>
-          <b-card title="CookieCoders" img-src="../../assets/images/HomePageImages/cookiecodersIcon.png" img-alt="Image"
-            img-top tag="article" style="max-width: 20rem;" class="mb-2">
-            <p class="card-text">
-              A webpage designed for a summer coding camp for youth. Created for the CSULB web development class along
-              with 4 other developers.
-            </p>
-          </b-card>
-        </b-card-group>
-        <br>
-      </b-container>
-    </section>
   </div>
 </template>
 <script>
