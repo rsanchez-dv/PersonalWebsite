@@ -2,7 +2,7 @@
 <div>
 <footer class="footer">
       <div class="container">
-        <span>© 2018 - Roberto Sanchez </span>
+        <span>© 2018 - Roberto Sanchez</span>
       </div>
     </footer>
 </div>

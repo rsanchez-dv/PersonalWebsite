@@ -39,6 +39,7 @@ export default {
   color: white;
   vertical-align: middle;
   margin: 5% 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,

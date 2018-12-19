@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <back-to-top bottom="50px" right="50px"  visibleoffset="100"><button type="button" class="btn btn-info btn-to-top" id="backToTopButton"><i class="fa fa-chevron-up"></i></button>
-</back-to-top>
     <h1>Whatfits: A fitness social media application</h1>
     <img src="../../../assets/images/ProjectImages/Whatfits/whatfitsProject.png" fluid-grow alt="Image of the website Whatfits imposed on a fake mac book air">
     <br>
@@ -380,12 +378,9 @@
 </template>
 
 <script>
-import BackToTop from 'vue-backtotop'
 export default {
   name: 'Whatfits',
-  components: {
-    BackToTop
-  }
+  components: {}
 }
 </script>
 

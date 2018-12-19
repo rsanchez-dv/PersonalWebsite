@@ -111,14 +111,10 @@
 
 <script>
 import { serverBus } from '../../main.js'
-import Footer from '@/components/Footer/Footer.vue'
-
 export default {
   props: ['selectedOption'],
   name: 'Selector',
-  components:{
-    Footer
-  },
+  components: {},
   methods: {
     projectSelected: function (option) {
       serverBus.$emit('projectSelected', option)
