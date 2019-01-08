@@ -4,11 +4,14 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-            <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
-              friends at
-              <a href="https://unsplash.com/">Unsplash</a>!</p>
-              <b-button lg class="btn-dark" >What We Offer</b-button>
+            <h2>About Me</h2>
+            <p class="lead mb-5">I'm a recent graduate from California State University, Long Beach seeking an entry
+              level position in
+              either software engineering or web development. I've been programming since 2012 in C++ and Java then
+              picking up web development during my later university life. I generally consider myself enthusiastic
+              about technology. Since I was a kid I liked to tinker and see what is capable on computers. My
+              interests are in the realm of web development, robotics, and automation.
+            </p>
           </div>
         </div>
       </div>
@@ -16,110 +19,91 @@
     <section class="content-section darkBackground text-white text-center" id="services">
       <div class="container">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Skills</h3>
           <h2 class="mb-5">Skills</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-7x fa-tv"></i>
-            </span>
+              <i class="fas fa-7x fa-users"></i></span>
             <h4>
-              <strong>Responsive</strong>
+              <strong>Natural Leader</strong>
             </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
+            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-7x fa-lemon"></i>
+              <i class="fab fa-7x fa-chrome"></i>
             </span>
             <h4>
-              <strong>Redesigned</strong>
+              <strong>Web Oriented</strong>
             </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+            <p class="text-faded mb-0">Experience developing web applications on modern platforms as a full stack
+              developer using HTML 5, CSS 3, C#, Javascript, and SQL</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="far fa-7x fa-envelope-open"></i>
+              <i class="fas fa-7x fa-terminal"></i>
             </span>
             <h4>
-              <strong>Favorited</strong>
+              <strong>Linux</strong>
             </h4>
-            <p class="text-faded mb-0">Millions of users
-              love
-              Start Bootstrap!</p>
+            <p class="text-faded mb-0">Experience utilizing and developing on linux platforms such as debian or Arch
+              based distributions </p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-7x fa-question"></i>
+              <i class="fas fa-7x fa-code"></i>
             </span>
             <h4>
-              <strong>Question</strong>
+              <strong>Multi-Tool</strong>
             </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
+            <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work.</p>
           </div>
         </div>
-        
       </div>
     </section>
     <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+          <h2 class="mb-6">Education</h2>
         </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div>
-        </div>
+        <b-container>
+          <b-row>
+            <div class="col-sm-4">
+                <img id="csulbLogo" src="../../assets/images/HomePageImages/csulbLogo.png">
+            </div>
+            <div class="col-sm-8">
+
+                <h3>California State University, Long Beach</h3>
+
+              <b-row class="location">Long Beach, California</b-row>
+              <b-row>
+                <p class="date">Jan 2016 - May 2018</p>
+              </b-row>
+              <b-row>
+                <p>Transfered from El Camino College Janurary 2016 and graduated May 2018 with a bachelor's degree in
+                  Computer
+                  Science. </p>
+                <p>
+                  Relevant courses taken:
+                  <br>
+                  <ul>
+                    <li>CECS 323 - Database Fundamentals</li>
+                    <li>CECS 328 - Data Structures and Algorithms</li>
+                    <li>CECS 343 - Introduction to Software Engineering</li>
+                    <li>CECS 378 - Introduction to Computer Security Principles</li>
+                    <li>CECS 470 - Web Programming and Accessibility</li>
+                    <li>CECS 491A/B - Software Engineering Project I/II</li>
+                  </ul>
+                  <br>
+                  For more information on theses classes check out the school's catalog <a href="http://catalog.csulb.edu/content.php?catoid=2&navoid=67">here</a>
+                </p>
+              </b-row>
+            </div>
+          </b-row>
+          <br>
+        </b-container>
       </div>
-    </section>
-    <section class="content-section darkBackground text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <b-button lg class="btn-light" >Click on me</b-button>      </div>
     </section>
   </div>
 </template>
@@ -164,7 +148,10 @@ background-color:#292c2f;
 .darkBackground {
   background-color: #292c2f;
 }
-.fas, .far {
+.fas, .far , .fab{
   padding-bottom: .25em;
+}
+#csulbLogo{
+  height: 18em;
 }
 </style>

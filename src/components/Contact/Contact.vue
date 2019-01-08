@@ -4,7 +4,7 @@
       <h1 class="text-center">Contact Me</h1>
       <hr>
       <b-card-group deck class="mb-3">
-        <b-card border-variant="secondary" img-alt="image of email" img-src="https://ppc.land/wp-content/uploads/gmail.png"
+        <b-card border-variant="secondary" img-alt="image of email" img-src="https://www.panorama.com.ve/__export/1532979319326/sites/panorama/img/2018/07/30/5720-u.jpg_881475351.jpg"
           align="center">
           <p class="card-text">For direct communication to me.</p>
           <b-button href="mailto:rsanchez92@live.com?Subject=Hello" variant="primary">Email</b-button>
