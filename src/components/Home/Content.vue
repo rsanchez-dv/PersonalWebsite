@@ -96,7 +96,7 @@
                     <li>CECS 491A/B - Software Engineering Project I/II</li>
                   </ul>
                   <br>
-                  For more information on theses classes check out the school's catalog <a href="http://catalog.csulb.edu/content.php?catoid=2&navoid=67">here</a>
+                  <a href="http://catalog.csulb.edu/content.php?catoid=2&navoid=67">For more information on theses classes check out the school's catalog here</a>
                 </p>
               </b-row>
             </div>
