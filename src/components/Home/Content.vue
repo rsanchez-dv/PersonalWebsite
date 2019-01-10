@@ -70,7 +70,7 @@
         <b-container>
           <b-row>
             <div class="col-sm-4">
-                <img id="csulbLogo" src="../../assets/images/HomePageImages/csulbLogo.png">
+                <img id="csulbLogo" alt="CSULB Logo" src="../../assets/images/HomePageImages/csulbLogo.png">
             </div>
             <div class="col-sm-8">
 
@@ -118,6 +118,9 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color:#3c3394;
+}
 .content-section {
   padding-top: 7.5em;
   padding-bottom: 7.5em;
