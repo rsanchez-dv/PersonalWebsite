@@ -1,6 +1,6 @@
 <template>
   <div class="center">
-    <p>For a printable version, <a href="https://drive.google.com/open?id=1eupuLzMwrcFWGs9tJraTuZIc-gTV077O">click here</a></p>
+    <p>For a printable version, <a href="https://drive.google.com/open?id=1luNk9y0rWwG8TnBCQrrqJdfdAQIO3UIn">click here</a></p>
     <img fluid src="../../assets/Docs/resume.png">
   </div>
 </template>
