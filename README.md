@@ -65,7 +65,7 @@ These are the known bugs I have encountered:
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Used for frontend development
 * [Vue.js](https://vuejs.org/) - Frontend JavaScript framework used
-* [BootStrap](https://getbootstrap.com/) - Frontend CSS and JavaScript framework
+* [BootStrap](https://getbootstrap.com/) - Frontend CSS and JavaScript library
 
 ## Authors
 
