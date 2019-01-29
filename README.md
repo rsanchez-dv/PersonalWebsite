@@ -1,4 +1,4 @@
-![Project Logo](/home/zyxel/Documents/github/PersonalWebsite/src/assets/images/logoDark.png)
+![Project Logo](https://github.com/Zyxel-1/PersonalWebsite/blob/master/src/assets/images/logoDark.png)
 
 # My Personal Portfolio
 
