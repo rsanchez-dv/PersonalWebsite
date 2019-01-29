@@ -1,3 +1,5 @@
+![Project Logo](/home/zyxel/Documents/github/PersonalWebsite/src/assets/images/logoDark.png)
+
 # My Personal Portfolio
 
 > A show case for my projects, business related stuff, and other stuff.
@@ -28,6 +30,8 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
+* **January 29, 2019**
+  * Optimized images to smaller sizes
 * **January 09, 2019**
   * Redid homepage to be mobile compatibility
   * Fixed missing image on contact page
