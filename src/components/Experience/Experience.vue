@@ -1,21 +1,25 @@
 <template>
   <div id="bg-color">
-    <div class="container center">
-<span class="sectionTitle">Experience</span>
-    <div class="row container">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/HomePageImages/elco.png"
-              alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Computer Science Tutor</h3>
-          <p>
-            CookBase is a single page web application designed to organize, discover, and rate recipes. By creating
-            such a platform, we can create a community of chefs ranging from amateurs to professionals.</p>
-          <p>Built using: .NET Core, MS SQL, Vue.js, and Foundation</p>
-          <b-link to="CookBase" class="btn btn-primary">View Project</b-link>
+    <div class="container text-center sectionPadding">
+      <span class="sectionTitle">Experiences</span>
+      <br>
+      <p>
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <br>
+      <div class="row">
+        <div class="col text-left">
+          <h3>El Camino College</h3>
+          <span id="jobDate">August 2015 - May 2016</span>
+          <br>
+          <span id="position"> Computer Science Tutor</span>
+          <br>
+          <span>Torrance, California</span>
+          <ul>
+            <br>
+            <li>Tutored C++, Data Structures, Java, Unix Programming, and Web Development Fundamentals. </li>
+            <li>Consulted students on their projects to ensure best practices are implemented on their designs and code. </li>
+            <li>Coordinated test preparation services with instructors to better prepare students.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -30,26 +34,31 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-img{
-  padding-top: 2em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#jobDate{
+font-style: italic;
 }
-.row{
-  padding-top:5%;
+#position{
+font-weight: bold;
 }
-@media screen and (max-width: 330px){
-    #bg-color{
-      color:#2b3033;
-      height: 100%;
+.row {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border:1px solid black;
+  border-radius:10px;
+
+}
+@media screen and (max-width: 330px) {
+  #bg-color {
+    color: #2b3033;
+    height: 100%;
   }
 }
-@media screen and (min-width: 331px){
-#bg-color{
+
+@media screen and (min-width: 331px) {
+  #bg-color {
     height: 100vh;
-    color:#2b3033;
+    color: #2b3033;
+  }
 }
-}
+
 </style>
