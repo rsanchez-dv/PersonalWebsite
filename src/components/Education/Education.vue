@@ -2,7 +2,7 @@
   <div id="bg-color">
     <div class="container text-center sectionPadding">
     <span class="sectionTitle">Education</span>
-    <p class="sectionSubTitle">The long difficult path to becoming who I am today as a software developer. </p>
+    <p class="sectionSubTitle">A brief but never ending quest for knowledge.</p>
         <Timeline class="timeline center"
           :timeline-items="dataTimeline"
           :message-when-no-items="messageWhenNoItems"
@@ -27,24 +27,25 @@ export default {
       {
         from: new Date(2018, 4),
         title: 'California State University - Long Beach',
-        description: 'Got my Bachlores in Computer SCience'
+        description: 'Completed - B.S in Computer Science'
       },
       {
         from: new Date(2016, 0),
         title: 'California State University - Long Beach',
-        description: 'Got my Bachlores in Computer SCience'
+        date: 'January 2016 - May 2018',
+        description: 'Transfered in'
       },
       {
         from: new Date(2015, 11),
         title: 'El Camino Community College',
         location: 'Torrance, California',
-        description: 'Finished'
+        description: 'Completed - A.S in Computer Science and Mathematics'
       },
       {
         from: new Date(2011, 0),
         title: 'El Camino Community College',
         location: 'Torrance, California',
-        description: 'Started'
+        description: 'Started attending'
       }
     ]
   })

@@ -2,7 +2,7 @@
   <div id="bg-color">
     <div class="container text-center sectionPadding" id="Skills">
       <span class="sectionTitle">Skills</span>
-      <p class="sectionSubTitle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="sectionSubTitle">These are the following skills I have aquired through hard work at school and on my personal life. </p>
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -10,7 +10,7 @@
             <h4>
               <strong>Natural Leader</strong>
             </h4>
-            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment</p>
+            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment and ensuring deadlines are reached while inspiring and motivating team members to give it their all</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -20,7 +20,7 @@
               <strong>Web Oriented</strong>
             </h4>
             <p class="text-faded mb-0">Experience developing web applications on modern platforms as a full stack
-              developer using HTML 5, CSS 3, C#, Javascript, and SQL</p>
+              developer using HTML 5, CSS 3, C#, Javascript, SQL, Node.js, MongoDB, and Express.</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-md-0 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -39,7 +39,7 @@
             <h4>
               <strong>Multi-Tool</strong>
             </h4>
-            <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work.</p>
+            <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work and projects.</p>
           </div>
            <div class="col-lg-4 col-md-6 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -48,7 +48,7 @@
             <h4>
               <strong>Project Management</strong>
             </h4>
-            <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work.</p>
+            <p class="text-faded mb-0">Experience documenting projects and communicating with team members and management on project progress and planning.</p>
           </div>
            <div class="col-lg-4 col-md-6 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -57,7 +57,7 @@
             <h4>
               <strong>Learning by Doing</strong>
             </h4>
-            <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work.</p>
+            <p class="text-faded mb-0">Experience being a motivated learner working on projects or playing around with existing code bases.</p>
           </div>
         </div>
     </div>
