@@ -1,9 +1,7 @@
 <template>
   <div id="bg-color">
-      <section class="content-section darkBackground text-center" id="services">
-      <div class="container">
-        <div class="content-section-heading">
-          <span class="sectionTitle">Skills</span>        </div>
+    <div class="container text-center sectionPadding">
+      <span class="sectionTitle">Skills</span>
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -43,8 +41,7 @@
             <p class="text-faded mb-0">Experience with C++, C#, Bash, Java, Python, SQL, and Javascript for other work.</p>
           </div>
         </div>
-      </div>
-    </section>
+    </div>
   </div>
 </template>
 
@@ -56,19 +53,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-img{
-  padding-top: 2em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-h1 {
-  text-align: center;
-}
-p{
-    text-align:center;
-}
 #bg-color{
     color:#2b3033;
 }

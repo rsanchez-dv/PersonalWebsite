@@ -1,12 +1,13 @@
 <template>
-    <section class=" container" id="bg-color">
-      <br>
-      <span class="sectionTitle">Contact Me</span>      <hr>
+  <div id="bg-color">
+    <div class="container text-center sectionPadding">
+      <span class="sectionTitle">Contact Me</span>
+      <hr>
       <b-card-group deck class="mb-3">
         <b-card border-variant="secondary" img-alt="image of email" img-src="../../assets/images/ContactImages/outlook.jpg"
           align="center">
           <p class="card-text">For direct communication to me.</p>
-          <b-button href="mailto:rsanchez92@live.com?Subject=Hello" variant="primary">Email</b-button>
+          <b-button href="mailto:rsanchez92@live.com" variant="primary">Email</b-button>
         </b-card>
         <b-card border-variant="secondary" img-alt="image of linkedin" img-src="../../assets/images/ContactImages/linkedIn.png"
           align="center">
@@ -19,20 +20,21 @@
           <b-button href="https://github.com/Zyxel-1" variant="primary">Github</b-button>
         </b-card>
       </b-card-group>
-      <p id="padding"></p>
-    </section>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Contact',
-  components: {
-  }
+  components: {}
 }
+
 </script>
 
 <style scoped>
-#padding{
-  padding-bottom: 5em;
-}
+  #padding {
+    padding-bottom: 5em;
+  }
+
 </style>
