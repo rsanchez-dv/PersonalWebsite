@@ -1,11 +1,13 @@
-![Project Logo](https://github.com/Zyxel-1/PersonalWebsite/blob/master/src/assets/images/logoDark.png)
+![Project Logo](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/master/src/assets/images/logoDark.png)
 
-# My Personal Portfolio
+
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](src/assets/images/ProjectImages/PersonalWebsite/Jan09Version.gif)
-Current Build as of: Jan 09, 2019
+
+
+![](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/docs/documents/homepageFeb2019.gif)
+Current Build as of: Feb 28, 2019
 
 ## Get Started
 
@@ -30,6 +32,8 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
+* **February 28, 2019**
+  * Revamped homepage geared to employers
 * **January 29, 2019**
   * Optimized images to smaller sizes
 * **January 09, 2019**
