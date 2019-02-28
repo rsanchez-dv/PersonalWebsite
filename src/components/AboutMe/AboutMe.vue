@@ -1,6 +1,6 @@
 <template>
   <div id="bg-color">
-      <div class="container text-center sectionPadding">
+      <div class="container text-center sectionPadding" id="AboutMe">
         <span class="sectionTitle">About Me</span>
         <div class="row">
           <div class="col-lg-10 mx-auto">

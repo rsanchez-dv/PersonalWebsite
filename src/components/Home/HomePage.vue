@@ -6,7 +6,7 @@
       <Education/>
       <Skills/>
       <Projects/>
-      <contact/>
+      <Contact/>
       <Footer/>
   </div>
 </template>
@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style >
+.sectionSubTitle{
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
 /*
     SectionTitle: Styles the section headers.
 */

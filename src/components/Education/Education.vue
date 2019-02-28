@@ -2,7 +2,8 @@
   <div id="bg-color">
     <div class="container text-center sectionPadding">
     <span class="sectionTitle">Education</span>
-        <Timeline class="aaa"
+    <p class="sectionSubTitle">The long difficult path to becoming who I am today as a software developer. </p>
+        <Timeline class="timeline center"
           :timeline-items="dataTimeline"
           :message-when-no-items="messageWhenNoItems"
           :unique-year="true"
@@ -65,26 +66,23 @@ export default {
           color:white;
       }
   }
-  @media screen and (max-width: 580px){
-  .aaa{
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    margin-top: 60px;
-    color:red;
-  }
-  }
-  @media screen and (min-width: 331px){
-    .aaa{
+  @media screen and (max-width: 768px){
+    .timeline{
       font-family: "Avenir", Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-align: center;
-      margin-top: 60px;
+      display:flex;
     }
-    .div.item{
-    width: 500px;
+  }
+  @media screen and (min-width: 769px){
+    .timeline{
+      font-family: "Avenir", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: left;
+      display: inline-block;
+      padding: 50px;
     }
   }
 </style>

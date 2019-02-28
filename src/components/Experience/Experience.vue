@@ -2,24 +2,21 @@
   <div id="bg-color">
     <div class="container text-center sectionPadding">
       <span class="sectionTitle">Experiences</span>
-      <br>
-      <p>
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <br>
+      <p class="sectionSubTitle">[INSERT TEXT]</p>
       <div class="row">
         <div class="col text-left">
-          <h3>El Camino College</h3>
-          <span id="jobDate">August 2015 - May 2016</span>
-          <br>
-          <span id="position"> Computer Science Tutor</span>
-          <br>
-          <span>Torrance, California</span>
-          <ul>
+            <h3>El Camino College</h3>
+            <span id="jobDate">August 2015 - May 2016</span>
             <br>
-            <li>Tutored C++, Data Structures, Java, Unix Programming, and Web Development Fundamentals. </li>
-            <li>Consulted students on their projects to ensure best practices are implemented on their designs and code. </li>
-            <li>Coordinated test preparation services with instructors to better prepare students.</li>
-          </ul>
+            <span id="position"> Computer Science Tutor</span>
+            <br>
+            <span>Torrance, California</span>
+            <br>
+            <ul>
+              <li>Tutored C++, Data Structures, Java, Unix Programming, and Web Development Fundamentals. </li>
+              <li>Consulted students on their projects to ensure best practices are implemented on their designs and code. </li>
+              <li>Coordinated test preparation services with instructors to better prepare students.</li>
+            </ul>
         </div>
       </div>
     </div>
@@ -45,6 +42,7 @@ font-weight: bold;
   padding-bottom: 2%;
   border:1px solid black;
   border-radius:10px;
+  padding-left: 15%
 
 }
 @media screen and (max-width: 330px) {

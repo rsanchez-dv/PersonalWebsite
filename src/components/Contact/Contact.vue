@@ -1,8 +1,8 @@
 <template>
   <div id="bg-color">
-    <div class="container text-center sectionPadding">
+    <div class="container text-center sectionPadding" id="Contact">
       <span class="sectionTitle">Contact Me</span>
-      <hr>
+      <p class="sectionSubTitle">If you want to contact me over anything feel free to drop a message on either of these platforms that I am on.</p>
       <b-card-group deck class="mb-3">
         <b-card border-variant="secondary" img-alt="image of email" img-src="../../assets/images/ContactImages/outlook.jpg"
           align="center">

@@ -3,7 +3,7 @@
     <div class="container text-center">
       <br>
       <span class="sectionTitle">Projects</span>
-            <hr>
+      <p class="sectionSubTitle">So of the projects that I have been working on either in school or on my freetime. All of these projects can be found on GitHub on their respective page.</p>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -104,12 +104,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.hr{
+  color:#2b3033
+}
   @media screen and (max-width: 300px) {
     .projectImg {
       width: 50%;
     }
   }
-
+#spacing{
+  line-height: 40em;
+}
   .projectImg {
     width: 28em;
     padding-bottom: 1em;
