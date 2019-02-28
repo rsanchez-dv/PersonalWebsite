@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <div class="container">
-      <h1 class="my-4">Projects
-        <small>Stuff I've worked on</small>
-      </h1>
-      <hr>
+  <div id="bg-color" class="text-white">
+    <div class="container text-center">
+      <br>
+      <span class="sectionTitle">Projects</span>
+            <hr>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -21,7 +20,6 @@
           <b-link to="CookBase" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      <hr>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -31,12 +29,12 @@
         </div>
         <div class="col-md-5">
           <h3>Personal Website</h3>
-          <p>My personal website used to showcase additional information that couldn't fit on a resume, project details, and contact information.</p>
+          <p>My personal website used to showcase additional information that couldn't fit on a resume, project
+            details, and contact information.</p>
           <p>Built using: Vue.js and Bootstrap</p>
           <b-link to="Personal" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      <hr>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -54,7 +52,6 @@
           <b-link to="Whatfits" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      <hr>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -70,7 +67,6 @@
           <b-link to="GreyMessaging" disabled class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      <hr>
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -80,37 +76,20 @@
         </div>
         <div class="col-md-5">
           <h3>CookieCoders</h3>
-          <p>Group project for the Introductory Web Development class. Used to show information about a fictional coding summer camp and signing up for additional information.</p>
+          <p>Group project for the Introductory Web Development class. Used to show information about a fictional
+            coding summer camp and signing up for additional information.</p>
           <p>Built using: HTML, CSS, Javascript, mySQL, and PHP. </p>
           <b-link to="CookieCoders" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      <hr>
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">«</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">»</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
-      </ul>
     </div>
-
-    <Footer />
   </div>
 </template>
 
 <script>
-import { serverBus } from '../../main.js'
+import {
+  serverBus
+} from '../../main.js'
 export default {
   props: ['selectedOption'],
   name: 'Selector',
@@ -125,4 +104,27 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  @media screen and (max-width: 300px) {
+    .projectImg {
+      width: 50%;
+    }
+  }
+
+  .projectImg {
+    width: 28em;
+    padding-bottom: 1em;
+  }
+
+  .row {
+    padding-bottom: 3em;
+  }
+
+  b-img {
+    align-content: center;
+  }
+
+  #bg-color {
+    background-color: #2b3033;
+  }
+
 </style>

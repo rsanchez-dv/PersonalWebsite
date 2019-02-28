@@ -1,14 +1,9 @@
 <template>
   <!-- Jumbotron   -->
-  <div class="jumbotron jumbotron-fluid">
-    <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
-      <source src="../../assets/backgrounds/mood.webm" data-src="" type="video/webm">
-    </video>
+  <div class="jumbotron jumbotron-fluid" id="image-bg">
     <div class="contain" id="landingPage">
-      <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce" class="title">Hello
-        World!</h1>
-      <h4 data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Let's
-        begin</h4>
+      <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Roberto Sanchez</h1>
+      <h4 data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Software Engineer / Web Developer</h4>
       <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
     </div>
   </div>
@@ -29,17 +24,21 @@ export default {
 <style scoped>
 @import "../../../node_modules/sal.js/dist/sal.css";
 
-#titlePage {
-  padding-top: 26vh;
+#image-bg{
+  background-image: url("../../assets/backgrounds/sampleBackground.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 #landingPage {
-  padding-top: 26vh;
+  padding-top: 20vh;
   text-align: center;
   color: white;
   vertical-align: middle;
   margin: 5% 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
