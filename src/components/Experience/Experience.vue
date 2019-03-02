@@ -65,7 +65,6 @@ font-weight: bold;
 @media screen and (max-width: 330px) {
   #bg-color {
     color: #2b3033;
-    height: 100%;
   }
 }
 

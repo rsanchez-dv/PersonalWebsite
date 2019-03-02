@@ -57,7 +57,6 @@ export default {
   @media screen and (max-width: 768px){
       #bg-color{
           background-color: #2b3033;
-          height: 100%;
           color:white;
       }
   }
