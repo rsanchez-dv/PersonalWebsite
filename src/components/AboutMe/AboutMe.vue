@@ -4,7 +4,7 @@
         <span class="sectionTitle">About Me</span>
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <p class="lead mb-5 bodyContent">I'm a recent graduate from California State University, Long Beach seeking an entry
+            <p class="lead mb-5">I'm a recent graduate from California State University, Long Beach seeking an entry
               level position in
               either software engineering or web development. I've been programming since 2012 in C++ and Java then
               picking up web development during my later university life. I generally consider myself enthusiastic
@@ -19,26 +19,24 @@
 
 <script>
 export default {
-  name: 'Blank'
+  name: 'AboutMe'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.bodyContent{
-  padding-top:10%;
+p{
+  padding-top:5%;
 }
 @media screen and (max-width: 330px){
     #bg-color{
       background-color: #2b3033;
-      height: 100%;
       color:white;
   }
 }
 @media screen and (min-width: 331px){
 #bg-color{
     background-color: #2b3033;
-    height: 100vh;
     color:white;
 }
 }
