@@ -33,7 +33,7 @@ export default {
   background-size: cover;
 }
 #landingPage {
-  padding-top: 20vh;
+  padding-top: 25vh;
   text-align: center;
   color: white;
   vertical-align: middle;

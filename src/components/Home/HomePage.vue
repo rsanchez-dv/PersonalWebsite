@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style >
+<style>
 .sectionSubTitle{
   padding-top: 1em;
   padding-bottom: 2em;

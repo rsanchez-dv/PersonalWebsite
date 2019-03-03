@@ -38,6 +38,7 @@ p{
 #bg-color{
     background-color: #2b3033;
     color:white;
+    height: 100%;
 }
 }
 </style>

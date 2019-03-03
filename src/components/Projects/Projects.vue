@@ -130,6 +130,7 @@ export default {
 
   #bg-color {
     background-color: #2b3033;
+    height: 100%;
   }
 
 </style>

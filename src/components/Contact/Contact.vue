@@ -36,5 +36,9 @@ export default {
   #padding {
     padding-bottom: 5em;
   }
-
+#bg-color{
+  color:#2b3033;
+  background-color: white;
+  height: 100%;
+}
 </style>

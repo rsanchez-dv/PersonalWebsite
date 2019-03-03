@@ -54,7 +54,30 @@ font-style: italic;
 #position{
 font-weight: bold;
 }
-.row {
+
+@media screen and (max-width: 595px) {
+  #bg-color {
+    color: #2b3033;
+    background-color: white;
+    height: 100%;
+  }
+  .row {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border:1px solid black;
+  border-radius:10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 2em;
+}
+}
+
+@media screen and (min-width: 596px) {
+  #bg-color {
+    color: #2b3033;
+    background-color: white;
+  }
+  .row {
   padding-top: 2%;
   padding-bottom: 2%;
   border:1px solid black;
@@ -62,16 +85,6 @@ font-weight: bold;
   padding-left: 15%;
   margin-top: 2em;
 }
-@media screen and (max-width: 330px) {
-  #bg-color {
-    color: #2b3033;
-  }
-}
-
-@media screen and (min-width: 331px) {
-  #bg-color {
-    color: #2b3033;
-  }
 }
 
 </style>
