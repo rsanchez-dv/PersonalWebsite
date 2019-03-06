@@ -1,6 +1,6 @@
 <template>
-  <div id="bg-color">
-    <div class="container text-center sectionPadding" id="Skills">
+  <div class="lightBackground screenHeight">
+    <div class="container text-center" id="Skills">
       <span class="sectionTitle">Skills</span>
       <p class="sectionSubTitle">These are the following skills I have aquired through hard work at school and on my personal life. </p>
         <div class="row">
@@ -66,21 +66,26 @@
 
 <script>
 export default {
-  name: 'Blank'
+  name: 'Skills'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.screenHeight{
+  height: 100%;
+}
+@media screen  and (min-width: 2560px)  {
+  .screenHeight{
+    height:100vh;
+  }
+}
 .skillItem{
   padding-top:20px;
   color:#2b3033
 }
 .row{
   padding-top: 1em;
-}
-#bg-color{
-    color:#2b3033;
 }
 .fas, .far , .fab{
   padding-bottom: .25em;

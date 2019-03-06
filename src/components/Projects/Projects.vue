@@ -1,5 +1,5 @@
 <template>
-  <div id="bg-color" class="text-white">
+  <div class="darkBackground screenHeight">
     <div class="container text-center">
       <br>
       <span class="sectionTitle">Projects</span>
@@ -104,17 +104,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hr{
-  color:#2b3033
-}
-  @media screen and (max-width: 300px) {
+
+  @media screen and (max-width: 320px) {
     .projectImg {
       width: 50%;
     }
   }
-#spacing{
-  line-height: 40em;
-}
   .projectImg {
     width: 28em;
     padding-bottom: 1em;
@@ -127,9 +122,8 @@ export default {
   b-img {
     align-content: center;
   }
-
-  #bg-color {
-    background-color: #2b3033;
+  .screenHeight{
+    height: 100%;
   }
 
 </style>

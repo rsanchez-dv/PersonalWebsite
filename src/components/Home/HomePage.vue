@@ -4,6 +4,8 @@
       <AboutMe/>
       <Experience/>
       <Education/>
+      <Skills/>
+      <Projects/>
       <Footer/>
   </div>
 </template>
@@ -39,7 +41,7 @@ export default {
 .sectionSubTitle{
   padding-top: 1em;
   padding-bottom: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family:  'Roboto', sans-serif;
 }
 /*
