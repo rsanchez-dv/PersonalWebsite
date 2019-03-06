@@ -3,6 +3,7 @@
       <landing-page/>
       <AboutMe/>
       <Experience/>
+      <Education/>
       <Footer/>
   </div>
 </template>
@@ -55,6 +56,9 @@ export default {
   padding:3em;
 
 }
+/*
+    Controls the background color for each section
+*/
 .lightBackground{
   background-color: white;
   color:#2b3033;
@@ -65,6 +69,9 @@ export default {
   color:white;
 
 }
+/*
+    Sets the height of each section for screen size.
+*/
 .screenHeight{
   height: 100vh;
   padding-top:5em;

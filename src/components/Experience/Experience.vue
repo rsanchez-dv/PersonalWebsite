@@ -2,7 +2,7 @@
   <div class="lightBackground screenHeight">
     <div class="container text-center">
       <span class="sectionTitle">Experiences</span>
-      <p class="sectionSubTitle">Here is a short work history detailing my responsiblities and achievements. This section can be expanded with your help.</p>
+      <p class="sectionSubTitle">Current work history detailing my responsiblities and achievements. This section can be expanded with your help.</p>
       <div class="centerBody">
 <div class="row">
         <div class="col text-left">
