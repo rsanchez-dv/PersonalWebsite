@@ -1,6 +1,6 @@
 <template>
-  <div id="bg-color">
-    <div class="container text-center sectionPadding" id="Contact">
+  <div class="lightBackground screenHeight">
+    <div class="container text-center" id="Contact">
       <span class="sectionTitle">Contact Me</span>
       <p class="sectionSubTitle">If you want to contact me over anything feel free to drop a message on either of these platforms that I am on.</p>
       <b-card-group deck class="mb-3">
@@ -33,8 +33,25 @@ export default {
 </script>
 
 <style scoped>
-  #padding {
-    padding-bottom: 5em;
-  }
+.screenHeight{
+  height:100vh;
+}
 
+@media screen and (min-width: 1440){
+  .screenHeight{
+    height: 100vh;
+    padding-top: 10em;
+  }
+}
+@media screen and (max-width: 768px){
+  .screenHeight{
+    height: 100%;
+  }
+}
+@media screen and(min-width: 222px){
+  .screenHeight{
+    height:100vh;
+  }
+  color: blue;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div>
 <footer class="footer">
-      <div class="container center">
+      <div class="container text-left">
         <span>© 2019 - Roberto Sanchez</span>
       </div>
     </footer>
@@ -14,7 +14,6 @@
 .footer {
 background-color: #292c2f;
 color: white;
-text-align: center;
 }
 
 </style>

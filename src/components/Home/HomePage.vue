@@ -6,6 +6,7 @@
       <Education/>
       <Skills/>
       <Projects/>
+      <Contact/>
       <Footer/>
   </div>
 </template>
