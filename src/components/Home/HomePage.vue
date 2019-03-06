@@ -3,10 +3,6 @@
       <landing-page/>
       <AboutMe/>
       <Experience/>
-      <Education/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
       <Footer/>
   </div>
 </template>
@@ -36,9 +32,14 @@ export default {
 </script>
 
 <style >
+/*
+  SectionSubTitle: Styles the subtitle
+*/
 .sectionSubTitle{
   padding-top: 1em;
   padding-bottom: 2em;
+  font-size: 1.5em;
+  font-family:  'Roboto', sans-serif;
 }
 /*
     SectionTitle: Styles the section headers.
@@ -52,5 +53,22 @@ export default {
 */
 .sectionPadding{
   padding:3em;
+
 }
+.lightBackground{
+  background-color: white;
+  color:#2b3033;
+
+}
+.darkBackground{
+  background-color: #2b3033;
+  color:white;
+
+}
+.screenHeight{
+  height: 100vh;
+  padding-top:5em;
+  padding-bottom: 5em;
+}
+
 </style>

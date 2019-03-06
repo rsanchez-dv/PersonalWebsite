@@ -1,9 +1,10 @@
 <template>
-  <div id="bg-color">
-    <div class="container text-center sectionPadding">
+  <div class="lightBackground screenHeight">
+    <div class="container text-center">
       <span class="sectionTitle">Experiences</span>
       <p class="sectionSubTitle">Here is a short work history detailing my responsiblities and achievements. This section can be expanded with your help.</p>
-       <div class="row">
+      <div class="centerBody">
+<div class="row">
         <div class="col text-left">
             <h3>Web Solutions and Such</h3>
             <span id="jobDate">September 2018 - Today</span>
@@ -36,13 +37,14 @@
             </ul>
         </div>
       </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Blank'
+  name: 'Experience'
 }
 </script>
 
@@ -62,17 +64,33 @@ font-weight: bold;
   padding-left: 15%;
   margin-top: 2em;
 }
-@media screen and (max-width: 330px) {
-  #bg-color {
-    color: #2b3033;
+.screenHeight{
     height: 100%;
   }
-}
-
-@media screen and (min-width: 331px) {
-  #bg-color {
-    color: #2b3033;
+  @media screen and (max-width: 320px){
+  .sectionSubTitle{
+    font-size: 1em;
+  }
+  .centerBody{
+    padding:0%;
+  }
+  .row{
+    padding:0%;
+    border:none;
   }
 }
-
+@media screen and (max-width: 425px) {
+ .row{
+   padding:5%;
+ }
+ .centerBody{
+   padding:10%;
+ }
+}
+@media screen and (min-width:2560px){
+  .screenHeight{
+    height: 100vh;
+  }
+}
+ 
 </style>
