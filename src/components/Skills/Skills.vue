@@ -72,7 +72,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .skillItem{
   padding-top:20px;
   color:#2b3033
@@ -81,18 +80,10 @@ export default {
   padding-top: 1em;
 }
 #bg-color{
-    background-color: white;
     color:#2b3033;
 }
 .fas, .far , .fab{
   padding-bottom: .25em;
 }
-  @media screen and (max-width: 1045px){
-  #bg-color{
-    background-color: white;
-    color:#2b3033;
-    height: 100%;
-  }
-  }
 
 </style>

@@ -56,20 +56,12 @@ font-style: italic;
 #position{
 font-weight: bold;
 }
-
-@media screen and (max-width: 595px) {
-  #bg-color {
-    color: #2b3033;
-    background-color: white;
-    height: 100%;
-  }
-  .row {
+.row {
   padding-top: 2%;
   padding-bottom: 2%;
   border:1px solid black;
   border-radius:10px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
   margin-top: 2em;
 }
 .screenHeight{
@@ -99,13 +91,5 @@ font-weight: bold;
   .screenHeight{
     height: 100vh;
   }
-  .row {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border:1px solid black;
-  border-radius:10px;
-  padding-left: 15%;
-  margin-top: 2em;
 }
- 
 </style>

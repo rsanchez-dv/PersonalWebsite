@@ -54,12 +54,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @media screen and (max-width: 295px){
-    #bg-color{
+  @media screen and (max-width: 768px){
+      #bg-color{
+          background-color: #2b3033;
+          height: 100%;
+          color:white;
+      }
+  }
+  @media screen and (min-width:769px){
+      #bg-color{
           background-color: #2b3033;
           color:white;
-          height: 100%;
       }
+  }
+  @media screen and (max-width: 768px){
     .timeline{
       font-family: "Avenir", Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
@@ -68,12 +76,7 @@ export default {
       display:flex;
     }
   }
-  @media screen and (min-width: 453px){
-    #bg-color{
-          background-color: #2b3033;
-          color:white;
-          height: 100%;
-      }
+  @media screen and (min-width: 769px){
     .timeline{
       font-family: "Avenir", Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
