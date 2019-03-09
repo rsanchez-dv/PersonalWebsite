@@ -6,10 +6,8 @@
       <p class="sectionSubTitle">So of the projects that I have been working on either in school or on my freetime. All of these projects can be found on GitHub on their respective page.</p>
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/ProjectImages/ProjectLogos/cookBaseLogo.png"
               alt="">
-          </a>
         </div>
         <div class="col-md-5">
           <h3>CookBase</h3>
@@ -22,10 +20,8 @@
       </div>
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/ProjectImages/ProjectLogos/personalWebsiteLogo.png"
               alt="">
-          </a>
         </div>
         <div class="col-md-5">
           <h3>Personal Website</h3>
@@ -37,10 +33,8 @@
       </div>
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/ProjectImages/ProjectLogos/whatfitsLogo.png"
               alt="">
-          </a>
         </div>
         <div class="col-md-5">
           <h3>WhatFits</h3>
@@ -54,10 +48,8 @@
       </div>
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/ProjectImages/ProjectLogos/greyMessagingLogo.png"
               alt="">
-          </a>
         </div>
         <div class="col-md-5">
           <h3>Grey Messaging</h3>
@@ -69,10 +61,8 @@
       </div>
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="./../../assets/images/ProjectImages/ProjectLogos/cookieCodersLogo.png"
               alt="">
-          </a>
         </div>
         <div class="col-md-5">
           <h3>CookieCoders</h3>
@@ -124,6 +114,9 @@ export default {
   }
   .screenHeight{
     height: 100%;
+  }
+  .btn{
+    background-color: #0051A8;
   }
 
 </style>

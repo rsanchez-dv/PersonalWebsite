@@ -54,4 +54,7 @@ export default {
   }
   color: blue;
 }
+.btn{
+  background-color: #0051A8;
+}
 </style>

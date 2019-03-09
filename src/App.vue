@@ -2,7 +2,7 @@
   <div id="app" >
     <NavBar></NavBar>
     <router-view></router-view>
-    <back-to-top bottom="50px" right="50px"  visibleoffset="200"><button type="button" class="btn btn-info btn-to-top" id="backToTopButton"><i class="fa fa-chevron-up"></i></button></back-to-top>
+    <back-to-top bottom="50px" right="50px"  visibleoffset="200"><button type="button" aria-label="Back to Top" class="btn btn-info btn-to-top" id="backToTopButton"><i class="fa fa-chevron-up"></i></button></back-to-top>
   </div>
 </template>
 <script>

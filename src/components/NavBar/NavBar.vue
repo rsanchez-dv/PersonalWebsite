@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md" type="dark" sticky id = "nav-color">
-    <b-navbar-brand left to="/"><img id="logo" src="./../../assets/images/logo.png"> </b-navbar-brand>
+    <b-navbar-brand left to="/" aria-label="Homepage"><img id="logo" src="./../../assets/images/logo.png" alt="Website Logo"> </b-navbar-brand>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
       <!-- Right aligned nav items -->

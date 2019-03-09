@@ -7,9 +7,9 @@
 <div class="row">
         <div class="col text-left">
             <h3>Web Solutions and Such</h3>
-            <span id="jobDate">September 2018 - Today</span>
+            <span class="jobDate">September 2018 - Today</span>
             <br>
-            <span id="position"> Freelance Web Developer</span>
+            <span class="position"> Freelance Web Developer</span>
             <br>
             <span>Los Angeles, California</span>
             <br>
@@ -23,9 +23,9 @@
       <div class="row">
         <div class="col text-left">
             <h3>El Camino College</h3>
-            <span id="jobDate">August 2015 - May 2016</span>
+            <span class="jobDate">August 2015 - May 2016</span>
             <br>
-            <span id="position"> Computer Science Tutor</span>
+            <span class="position"> Computer Science Tutor</span>
             <br>
             <span>Torrance, California</span>
             <br>
@@ -50,10 +50,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#jobDate{
+.jobDate{
 font-style: italic;
 }
-#position{
+.position{
 font-weight: bold;
 }
 .row {
