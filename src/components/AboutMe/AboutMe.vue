@@ -3,16 +3,13 @@
       <div class="container text-center" id="AboutMe">
         <span class="sectionTitle">About Me</span>
         <br/>
-        <span class="sectionSubTitle">This is subtitle</span>
-
+        <!-- <span class="sectionSubTitle">This is subtitle</span> -->
         <div class="row">
           <div class="col-lg-10 mx-auto centerBody">
             <p class="lead mb-5 ">I'm a recent graduate from California State University, Long Beach seeking an entry
-              level position in
-              either software engineering or web development. I've been programming since 2012 in C++ and Java then
-              picking up web development during my later university life. I generally consider myself enthusiastic
-              about technology. Since I was a kid I liked to tinker and see what is capable on computers. My
-              interests are in the realm of web development, robotics, and automation.
+              level position in either software engineering or web development. I've been programming since 2012 in C++ and Java then
+              picking up web development during my later university life. Being fresh out of college my focus is on learning as much as I can to improve
+              my skill set. Here are some small snippets on my interests:
             </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">
@@ -21,17 +18,20 @@
             <h4>
               <strong>Designing / Building</strong>
             </h4>
-            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment and ensuring deadlines are reached while inspiring and motivating team members to give it their all</p>
+            <p class="text-faded mb-0">
+              Passionate about building and designing stuff ranging from electronics, software, and hardware.
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fas fa-7x fa-cogs"></i>
-
-</span>
+            </span>
             <h4>
               <strong>Nack for Technology</strong>
             </h4>
-            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment and ensuring deadlines are reached while inspiring and motivating team members to give it their all</p>
+            <p class="text-faded mb-0">
+            Been enthusiastic about technology since a kid ranging from computers and analog systems.
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -40,7 +40,9 @@
             <h4>
               <strong>Outdoors Explorer</strong>
             </h4>
-            <p class="text-faded mb-0">Experience working and managing a team of developers in a scrum enviroment and ensuring deadlines are reached while inspiring and motivating team members to give it their all</p>
+            <p class="text-faded mb-0">
+              Every now and then I like going outside and connecting with nature and myself.
+            </p>
           </div>
         </div>
       </div>

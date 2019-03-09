@@ -2,7 +2,7 @@
   <div class="darkBackground screenHeight">
     <div class="container text-center">
     <span class="sectionTitle">Education</span>
-    <p class="sectionSubTitle">A brief timeline on my educational journey.  </p>
+    <p class="sectionSubTitle">A brief timeline on my educational journey. Afterward I started self study using plenty of online educational resources.  </p>
         <Timeline class="timeline center"
           :timeline-items="dataTimeline"
           :message-when-no-items="messageWhenNoItems"
