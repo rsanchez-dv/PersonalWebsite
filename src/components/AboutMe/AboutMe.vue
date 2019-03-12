@@ -1,6 +1,6 @@
 <template>
-  <div class="darkBackground screenHeight">
-      <div class="container text-center" id="AboutMe">
+  <div class="darkBackground screenHeight " id="AboutMe">
+      <div class="container text-center">
         <span class="sectionTitle">About Me</span>
         <br/>
         <!-- <span class="sectionSubTitle">This is subtitle</span> -->

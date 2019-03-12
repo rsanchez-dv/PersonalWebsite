@@ -1,5 +1,5 @@
 <template>
-  <div class="darkBackground screenHeight">
+  <div class="darkBackground screenHeight" id="Education">
     <div class="container text-center">
     <span class="sectionTitle">Education</span>
     <p class="sectionSubTitle">A brief timeline on my educational journey. Afterward I started self study using plenty of online educational resources.  </p>

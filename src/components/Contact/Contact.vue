@@ -1,6 +1,6 @@
 <template>
-  <div class="lightBackground screenHeight">
-    <div class="container text-center" id="Contact">
+  <div class="lightBackground screenHeight" id="Contact">
+    <div class="container text-center">
       <span class="sectionTitle">Contact Me</span>
       <p class="sectionSubTitle">If you want to contact me over anything feel free to drop a message on either of these platforms that I am on.</p>
       <b-card-group deck class="mb-3">
@@ -34,9 +34,9 @@ export default {
 
 <style scoped>
 .screenHeight{
-  height:100vh;
+  height:100%;
 }
-
+/*
 @media screen and (min-width: 1440){
   .screenHeight{
     height: 100vh;
@@ -52,7 +52,12 @@ export default {
   .screenHeight{
     height:100vh;
   }
-  color: blue;
+}
+*/
+@media screen and (min-width:2560px){
+  .screenHeight{
+    height: 100vh;
+  }
 }
 .btn{
   background-color: #0051A8;

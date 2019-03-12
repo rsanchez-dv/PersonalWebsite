@@ -1,6 +1,6 @@
 <template>
-  <div class="darkBackground screenHeight">
-    <div class="container text-center">
+  <div class="darkBackground screenHeight" id="Projects">
+    <div class="container text-center" >
       <br>
       <span class="sectionTitle">Projects</span>
       <p class="sectionSubTitle">So of the projects that I have been working on either in school or on my freetime. All of these projects can be found on GitHub on their respective page.</p>

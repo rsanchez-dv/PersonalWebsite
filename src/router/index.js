@@ -16,21 +16,6 @@ export default new Router({
       component: () => import('@/components/Home/HomePage')
     },
     {
-      path: '/resume',
-      name: 'Resume',
-      component: () => import('@/components/Resume/Resume')
-    },
-    {
-      path: '/contact',
-      name: 'Contact',
-      component: () => import('@/components/Contact/Contact')
-    },
-    {
-      path: '/projects',
-      name: 'Projects',
-      component: () => import('@/components/Projects/Projects')
-    },
-    {
       path: '/cookbase',
       name: 'CookBase',
       component: () => import('@/components/Projects/ProjectsList/CookBase')
@@ -43,7 +28,7 @@ export default new Router({
     {
       path: '/whatfits',
       name: 'Whatfits',
-      component: () => import('@/components/Projects/ProjectsList/Whatfits')
+      component: () => import('../components/Projects/ProjectsList/Whatfits.vue')
     },
     {
       path: '/greymessaging',

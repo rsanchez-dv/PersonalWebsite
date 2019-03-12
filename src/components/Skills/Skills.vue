@@ -1,6 +1,6 @@
 <template>
-  <div class="lightBackground screenHeight">
-    <div class="container text-center" id="Skills">
+  <div class="lightBackground screenHeight" id="Skills">
+    <div class="container text-center" >
       <span class="sectionTitle">Skills</span>
       <p class="sectionSubTitle">These are the following skills I have aquired through hard work at school and on my personal life. </p>
         <div class="row">
