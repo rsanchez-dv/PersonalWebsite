@@ -61,14 +61,8 @@ Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWeb
 
 These are the known bugs I have encountered:
 
-1. When loading a specific page via the url it might throw an error. This is probably because how Netlify sets up the project. So as of right now you can't rsanchez92.com/asdf or /projects you have to go from the homepage to projects.
-
+1. When on a different page the nav buttons for the home page won't take you to the section you selected.
    
-
-   
-
-   
-
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Used for frontend development
