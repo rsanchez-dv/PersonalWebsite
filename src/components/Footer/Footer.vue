@@ -1,34 +1,39 @@
 <template>
-<div>
-<footer class="footer">
+  <div>
+    <footer class="footer">
       <div class="container">
-        <span class="text-left">© 2019 - Roberto Sanchez</span> <span class="text-right">Last Modified on {{msg}}</span>
+        <div class="row">
+          <div class="column">© 2019 - Roberto Sanchez</div>
+          <div class="column">Last Modified on {{msg}}</div>
+        </div>
       </div>
     </footer>
-</div>
+  </div>
 </template>
 <script>
 export default {
-  data () {
+  data() {
     return {
-      msg: '03/07/19'
-    }
+      msg: "July 2019"
+    };
   },
-  created () {
-    // this.lastModifiedPage()
-  },
-  methods: {
-    lastModifiedPage () {
-      this.msg = document.lastModified
-    }
-  }
-}
+  created() {},
+  methods: {}
+};
 </script>
 
 <style scoped>
 .footer {
-background-color: #292c2f;
-color: white;
+  background-color: #292c2f;
+  color: white;
 }
-
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
