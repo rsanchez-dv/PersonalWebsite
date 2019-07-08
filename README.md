@@ -32,6 +32,8 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
+* **July 08, 2019**
+  * Fixed a lot of vulnerablities and revamped homepage
 * **February 28, 2019**
   * Revamped homepage geared to employers
 * **January 29, 2019**
