@@ -1,11 +1,11 @@
 <template>
   <div class="darkBackground screenHeight" id="Education">
     <div class="container text-center">
-      <span class="sectionTitle">Education / Work Experience</span>
-      <p
-        class="sectionSubTitle"
-      >A brief timeline on my educational journey. Afterward I started self study using plenty of online educational resources.</p>
-      <Timeline />
+      <span class="sectionTitle">Education & Work Experience</span>
+      <p class="sectionSubTitle">
+        A brief timeline on my education and work experience
+        <Timeline />
+      </p>
     </div>
   </div>
 </template>
