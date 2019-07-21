@@ -23,8 +23,8 @@
 </template>
 <script>
 export default {
-  name: "NavBar"
-};
+  name: 'NavBar'
+}
 </script>
 <style>
 #nav-color {

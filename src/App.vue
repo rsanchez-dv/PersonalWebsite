@@ -15,16 +15,16 @@
   </div>
 </template>
 <script>
-import NavBar from "@/components/NavBar/NavBar.vue";
-import BackToTop from "vue-backtotop";
+import NavBar from '@/components/NavBar/NavBar.vue'
+import BackToTop from 'vue-backtotop'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     NavBar,
     BackToTop
   }
-};
+}
 </script>
 
 <style>

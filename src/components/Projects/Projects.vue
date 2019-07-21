@@ -101,20 +101,20 @@
 </template>
 
 <script>
-import { serverBus } from "../../main.js";
+import { serverBus } from '../../main.js'
 export default {
-  props: ["selectedOption"],
-  name: "Selector",
+  props: ['selectedOption'],
+  name: 'Selector',
   components: {},
   methods: {
-    projectSelected: function(option) {
-      serverBus.$emit("projectSelected", option);
+    projectSelected: function (option) {
+      serverBus.$emit('projectSelected', option)
     }
   }
-};
+}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
 @media screen and (max-width: 320px) {
   .projectImg {
