@@ -1,5 +1,5 @@
 {
-  "name": "personalwebsite2",
+  "name": "personalwebsite",
   "version": "1.0.0",
   "description": "Personal Website for Roberto Sanchez",
   "author": "Roberto Sanchez <rsanchez92@live.com>",
@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap-vue": "^2.0.0-rc.25",
+    "jquery": "^3.4.1",
     "sal.js": "^0.6.1",
     "vue": "^2.5.2",
     "vue-backtotop": "^1.6.1",
