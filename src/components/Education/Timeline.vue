@@ -43,7 +43,7 @@
             Sept 2018 - May 2019
           </span>
         </div>
-        <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+        <p>Designing, coding, and modifying websites for independent clients for their needs.</p>
         <ul class="content-skills">
           <li>Vue.js</li>
           <li>BootStrap</li>
@@ -72,7 +72,7 @@
             Jan 2016 - May 2018
           </span>
         </div>
-        <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+        <p>Completed California State University, Long Beach with a Bachelors of Science in Computer Science</p>
         <ul class="content-skills">
           <li>Java</li>
           <li>C#</li>
@@ -101,12 +101,12 @@
             Jan 2015 - Dec 2015
           </span>
         </div>
-        <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+        <p>Offered tutoring services on either a one-on-one basis or group sessions of eight or more.</p>
         <ul class="content-skills">
           <li>C++</li>
           <li>Java</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>Web Dev Fundamentals</li>
+          <li>Linux</li>
         </ul>
       </div>
       <!-- cd-timeline-content -->
@@ -128,7 +128,7 @@
             Jan 2011 - Dec 2015
           </span>
         </div>
-        <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+        <p>Completed El Camino Community with an Associates in Mathematics and Computer Science</p>
         <ul class="content-skills">
           <li>C++</li>
           <li>Java</li>

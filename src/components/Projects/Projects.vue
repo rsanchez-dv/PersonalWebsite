@@ -21,7 +21,7 @@
             such a platform, we can create a community of chefs ranging from amateurs to professionals.
           </p>
           <p>Built using: .NET Core, MS SQL, Vue.js, and Foundation</p>
-          <b-link to="CookBase" class="button">View Project</b-link>
+          <b-link to="CookBase" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
       <div class="row">
@@ -101,17 +101,17 @@
 </template>
 
 <script>
-import { serverBus } from '../../main.js'
+import { serverBus } from "../../main.js";
 export default {
-  props: ['selectedOption'],
-  name: 'Selector',
+  props: ["selectedOption"],
+  name: "Selector",
   components: {},
   methods: {
-    projectSelected: function (option) {
-      serverBus.$emit('projectSelected', option)
+    projectSelected: function(option) {
+      serverBus.$emit("projectSelected", option);
     }
   }
-}
+};
 </script>
 
 <!-- Add 'scoped' attribute to limit CSS to this component only -->
