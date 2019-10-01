@@ -6,6 +6,9 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   linkActiveClass: 'is-active',
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  },
   routes: [
     {
       path: '/',
@@ -13,19 +16,29 @@ export default new Router({
       component: () => import('@/components/Home/HomePage')
     },
     {
-      path: '/resume',
-      name: 'Resume',
-      component: () => import('@/components/Resume/Resume')
+      path: '/cookbase',
+      name: 'CookBase',
+      component: () => import('@/components/Projects/ProjectsList/CookBase')
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: () => import('@/components/Contact/Contact')
+      path: '/personal',
+      name: 'Personal',
+      component: () => import('@/components/Projects/ProjectsList/Personal')
     },
     {
-      path: '/projects',
-      name: 'Projects',
-      component: () => import('@/components/Projects/Projects')
+      path: '/whatfits',
+      name: 'Whatfits',
+      component: () => import('../components/Projects/ProjectsList/Whatfits.vue')
+    },
+    {
+      path: '/greymessaging',
+      name: 'GreyMessaging',
+      component: () => import('@/components/Projects/ProjectsList/GreyMessaging')
+    },
+    {
+      path: '/cookiecoders',
+      name: 'CookieCoders',
+      component: () => import('@/components/Projects/ProjectsList/CookieCoders')
     },
     {
       path: '*',

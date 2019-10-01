@@ -11,11 +11,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 library.add(faCoffee)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
-
+Vue.config.productionTip = false
 export const serverBus = new Vue()
 /* eslint-disable no-new */
 new Vue({

@@ -1,9 +1,11 @@
-# My Personal Portfolio
+![Project Logo](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/master/src/assets/images/logoDark.png)
+
+
 
 > A show case for my projects, business related stuff, and other stuff.
 
-![](src/assets/images/ProjectImages/PersonalWebsite/Nov12Version.gif)
-Current Build as of: Oct 1, 2019
+![](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/docs/documents/homepageFeb2019.gif)
+Current Build as of: Feb 28, 2019
 
 ## Get Started
 
@@ -28,37 +30,44 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## Release History
 Any updates will get posted on the [wiki](https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates) every now or then. What is listed down here is what has been deployed.
-* November 12, 2018
+* **July 08, 2019**
+  * Fixed a lot of vulnerablities and revamped homepage
+* **February 28, 2019**
+  * Revamped homepage geared to employers
+* **January 29, 2019**
+  * Optimized images to smaller sizes
+* **January 09, 2019**
+  * Redid homepage to be mobile compatibility
+  * Fixed missing image on contact page
+* **November 12, 2018**
   * Redid the homepage to a more modern appearance
   * Fixed some typos in the information
   * Broke Mobile compatibility on homepage
-* November 08, 2018
+* **November 08, 2018**
   * Added personal information on the homepage
   * Added project details on the projects section
   * Added a contact tab on nav-bar
-* November 01 2018 
+* **November 01, 2018** 
   - Redid the landing page
   - Resume now links to my resume on Google Drive
   - Got rid of the carousel in projects and replaced with a Nav bar
-* October 27, 2018
+* **October 27, 2018**
   - Projects Skeletal design is merged to master
   - Mobile Friendly
-* Sept 28, 2018
+* **Sept 28, 2018**
   - Skeletal Website is up.
 
 ## Known Bugs
 
 These are the known bugs I have encountered:
 
-1. When loading a specific page via the url it might throw an error. This is probably because how Netlify sets up the project. So as of right now you can't rsanchez92.com/asdf or /projects you have to go from the homepage to projects.
-2. When scrolling down on the home page and you click on projects it won't start you from the top but way down on the screen.
-3. MOBILE IS BROKEN AGAIN (as of Nov . 12)
-
+1. When on a different page the nav buttons for the home page won't take you to the section you selected.
+   
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Used for frontend development
 * [Vue.js](https://vuejs.org/) - Frontend JavaScript framework used
-* [BootStrap](https://getbootstrap.com/) - Frontend CSS and JavaScript framework
+* [BootStrap](https://getbootstrap.com/) - Frontend CSS and JavaScript library
 
 ## Authors
 

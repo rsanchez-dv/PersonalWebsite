@@ -61,6 +61,10 @@
       <figure>
         <figcaption>Fig. 4 - Redid the homepage. Looks more modern and sleek. Broke compatibility with mobile though...</figcaption>
       </figure>
+      <img src="../../../assets/images/ProjectImages/PersonalWebsite/Jan09Version.gif" alt="Latest version of the website homepage.">
+      <figure>
+        <figcaption>Fig. 5 - Redid homepage to be more modern and mobile friendly</figcaption>
+      </figure>
     </div>
   </div>
 </template>

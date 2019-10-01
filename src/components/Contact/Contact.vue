@@ -1,48 +1,61 @@
 <template>
-  <div id="bgColor">
-    <section class=" container">
-      <h1 class="center">Contact Me</h1>
-      <hr>
-      <b-container class="bv-example-row">
-        <b-col>
-          <b-row><a href="https://www.linkedin.com/in/robertosanchez92/"><i class="fab fa-linkedin"><span class="title">LinkedIn</span></i></a></b-row>
-          <br>
-          <b-row><a href="mailto:rsanchez92@live.com?Subject=Hello"><i class="fas fa-envelope-square"><span class="title">Email</span></i></a></b-row>
-          <br>
-          <b-row><a href="https://github.com/Zyxel-1"><i class="fab fa-github-square"><span class="title">Github</span></i></a></b-row>
-        </b-col>
-      </b-container>
-    </section>
+  <div class="lightBackground screenHeight" id="Contact">
+    <div class="container text-center">
+      <span class="sectionTitle">Contact Me</span>
+      <p
+        class="sectionSubTitle"
+      >If you want to contact me over anything feel free to drop a message on either of these platforms that I am on.</p>
+      <b-card-group deck class="mb-3">
+        <b-card
+          border-variant="secondary"
+          :img-src="require('../../assets/images/ContactImages/outlook.jpg')"
+          img-alt="image of email"
+          align="center"
+        >
+          <p class="card-text">For direct communication to me.</p>
+          <b-button href="mailto:rsanchez92@live.com" variant="primary">Email</b-button>
+        </b-card>
+        <b-card
+          border-variant="secondary"
+          img-alt="image of linkedin"
+          :img-src="require('../../assets/images/ContactImages/linkedIn.png')"
+          align="center"
+        >
+          <p class="card-text">A shorter version of this website or for networking.</p>
+          <b-button href="https://www.linkedin.com/in/robsanchez92/" variant="primary">LinkedIn</b-button>
+        </b-card>
+        <b-card
+          border-variant="secondary"
+          img-alt="image of github"
+          :img-src="require('../../assets/images/ContactImages/github.png')"
+          align="center"
+        >
+          <p class="card-text">My place of creativity and work. Mostly updated weekly.</p>
+          <b-button href="https://github.com/Zyxel-1" variant="primary">Github</b-button>
+        </b-card>
+      </b-card-group>
+    </div>
   </div>
 </template>
+
 <script>
+/* eslint-disable  */
 export default {
-  name: 'Contact'
-}
+  name: "Contact",
+  components: {}
+};
 </script>
 
 <style scoped>
-#bgColor {
-    background-color: #2b3033;
+.screenHeight {
+  height: 100%;
+}
+@media screen and (min-width: 2560px) {
+  .screenHeight {
     height: 100vh;
-    color: white;
+  }
 }
-.title {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1em;
-}
-h1 {
-    color: white;
-}
-i {
-    color: white;
-    font-size: 3em;
-}
-hr {
-    background-color: white;
-}
-a {
-    text-decoration: none;
-    color: white;
+.btn {
+  background-color: #0051a8;
 }
 </style>

@@ -379,7 +379,8 @@
 
 <script>
 export default {
-  name: 'Whatfits'
+  name: 'Whatfits',
+  components: {}
 }
 </script>
 

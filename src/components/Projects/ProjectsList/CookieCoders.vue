@@ -118,8 +118,7 @@
 <script>
 export default {
   name: 'CookieCoders',
-  components: {
-  }
+  components: {}
 }
 </script>
 
