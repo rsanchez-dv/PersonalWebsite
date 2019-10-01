@@ -4,8 +4,6 @@
 
 > A show case for my projects, business related stuff, and other stuff.
 
-
-
 ![](https://raw.githubusercontent.com/Zyxel-1/PersonalWebsite/docs/documents/homepageFeb2019.gif)
 Current Build as of: Feb 28, 2019
 
