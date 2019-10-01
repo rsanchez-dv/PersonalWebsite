@@ -3,7 +3,7 @@
 > A show case for my projects, business related stuff, and other stuff.
 
 ![](src/assets/images/ProjectImages/PersonalWebsite/Nov12Version.gif)
-Current Build as of: Nov 12, 2018
+Current Build as of: Oct 1, 2019
 
 ## Get Started
 
