@@ -6,6 +6,7 @@
       <p
         class="sectionSubTitle"
       >So of the projects that I have been working on either in school or on my freetime. All of these projects can be found on GitHub on their respective page.</p>
+      <!--
       <div class="row">
         <div class="col-md-7">
           <img
@@ -24,6 +25,7 @@
           <b-link to="CookBase" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
+      -->
       <div class="row">
         <div class="col-md-7">
           <img
@@ -101,17 +103,17 @@
 </template>
 
 <script>
-import { serverBus } from "../../main.js";
+import { serverBus } from '../../main.js'
 export default {
-  props: ["selectedOption"],
-  name: "Selector",
+  props: ['selectedOption'],
+  name: 'Selector',
   components: {},
   methods: {
-    projectSelected: function(option) {
-      serverBus.$emit("projectSelected", option);
+    projectSelected: function (option) {
+      serverBus.$emit('projectSelected', option)
     }
   }
-};
+}
 </script>
 
 <!-- Add 'scoped' attribute to limit CSS to this component only -->

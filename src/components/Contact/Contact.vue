@@ -22,7 +22,7 @@
           align="center"
         >
           <p class="card-text">A shorter version of this website or for networking.</p>
-          <b-button href="https://www.linkedin.com/in/robertosanchez92/" variant="primary">LinkedIn</b-button>
+          <b-button href="https://www.linkedin.com/in/robsanchez92/" variant="primary">LinkedIn</b-button>
         </b-card>
         <b-card
           border-variant="secondary"
