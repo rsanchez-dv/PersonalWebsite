@@ -25,7 +25,7 @@ export default {
 @import "../../../node_modules/sal.js/dist/sal.css";
 
 #image-bg{
-  background-image: url("../../assets/backgrounds/sampleBackground.png");
+  background-image: url("../../assets/backgrounds/alterhome.gif");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;

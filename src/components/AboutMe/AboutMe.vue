@@ -1,5 +1,5 @@
 <template>
-  <div class="darkBackground screenHeight " id="AboutMe">
+  <div class="lightBackground screenHeight " id="AboutMe">
       <div class="container text-center">
         <span class="sectionTitle">About Me</span>
         <br/>

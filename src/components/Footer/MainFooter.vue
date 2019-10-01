@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="column">© 2019 - Roberto Sanchez</div>
-          <div class="columnRight">Last Modified on: {{msg}}</div>
+          <div class="column">Last Modified on {{msg}}</div>
         </div>
       </div>
     </footer>
@@ -15,7 +15,7 @@
 export default {
   data() {
     return {
-      msg: "October 2019"
+      msg: "July 2019"
     };
   },
   created() {},
@@ -31,11 +31,6 @@ export default {
 .column {
   float: left;
   width: 50%;
-}
-.columnRight{
-  float:right;
-  width: 50%;
-  text-align: right;
 }
 .row:after {
   content: "";
