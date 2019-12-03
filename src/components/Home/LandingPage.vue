@@ -2,29 +2,41 @@
   <!-- Jumbotron   -->
   <div class="jumbotron jumbotron-fluid" id="image-bg">
     <div class="contain" id="landingPage">
-      <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Roberto Sanchez</h1>
-      <h4 data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Software Engineer / Web Developer</h4>
-      <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
+      <h1
+        data-sal="slide-up"
+        data-sal-delay="300"
+        data-sal-duration="1200"
+        data-sal-easing="ease-out-bounce"
+      >Roberto Sanchez</h1>
+      <h4
+        data-sal="slide-up"
+        data-sal-delay="700"
+        data-sal-duration="1200"
+        data-sal-easing="ease-out-bounce"
+      >Software Engineer / Web Developer</h4>
+      <div class="arrow bounce">
+        <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+      </div>
     </div>
   </div>
 </template>
 <script>
-import sal from 'sal.js'
+import sal from "sal.js";
 export default {
-  name: 'LandingPage',
+  name: "LandingPage",
   components: {
     sal
   },
-  mounted () {
-    sal()
+  mounted() {
+    sal();
   }
-}
+};
 </script>
 
 <style scoped>
 @import "../../../node_modules/sal.js/dist/sal.css";
 
-#image-bg{
+#image-bg {
   background-image: url("../../assets/backgrounds/alterhome.gif");
   min-height: 500px;
   background-attachment: fixed;
@@ -38,7 +50,7 @@ export default {
   color: white;
   vertical-align: middle;
   margin: 5% 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -92,7 +104,11 @@ i {
   animation: bounce 2s infinite;
 }
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0);
     transform: translateY(0);
   }
@@ -106,7 +122,11 @@ i {
   }
 }
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -120,7 +140,11 @@ i {
   }
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);

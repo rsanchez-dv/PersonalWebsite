@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="md" type="dark" sticky id="nav-color">
+  <b-navbar type="dark" id="nav-color">
     <b-navbar-brand left to="/" aria-label="Homepage">
       <img id="logo" src="./../../assets/images/logo.png" alt="Website Logo" />
     </b-navbar-brand>
@@ -23,12 +23,14 @@
 </template>
 <script>
 export default {
-  name: 'NavBar'
-}
+  name: "NavBar"
+};
 </script>
 <style>
 #nav-color {
-  background-color: #2b3033;
+  position: absolute;
+  z-index: 100;
+  /*background-color: #2b3033;*/
 }
 #logo {
   height: 2em;
