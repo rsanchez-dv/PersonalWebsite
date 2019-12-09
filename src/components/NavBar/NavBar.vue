@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="dark" id="nav-color">
+  <b-navbar toggleable="md" type="dark" id="nav-color">
     <b-navbar-brand left to="/" aria-label="Homepage">
       <img id="logo" src="./../../assets/images/logo.png" alt="Website Logo" />
     </b-navbar-brand>
