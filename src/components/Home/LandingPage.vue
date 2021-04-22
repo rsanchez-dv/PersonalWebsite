@@ -21,23 +21,23 @@
   </div>
 </template>
 <script>
-import sal from "sal.js";
+import sal from 'sal.js'
 export default {
-  name: "LandingPage",
+  name: 'LandingPage',
   components: {
     sal
   },
-  mounted() {
-    sal();
+  mounted () {
+    sal()
   }
-};
+}
 </script>
 
 <style scoped>
 @import "../../../node_modules/sal.js/dist/sal.css";
 
 #image-bg {
-  background-image: url("../../assets/backgrounds/alterhome.gif");
+  background-image: url("https://personalwebsiteimages.s3-us-west-1.amazonaws.com/backgrounds/alterhome.gif");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;

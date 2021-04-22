@@ -30,7 +30,7 @@
         <div class="col-md-7">
           <img
             class="img-fluid rounded mb-3 mb-md-0"
-            src="./../../assets/images/ProjectImages/ProjectLogos/personalWebsiteLogo.png"
+            src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/ProjectLogos/personalWebsiteLogo.png"
             alt
           />
         </div>
@@ -48,7 +48,7 @@
         <div class="col-md-7">
           <img
             class="img-fluid rounded mb-3 mb-md-0"
-            src="./../../assets/images/ProjectImages/ProjectLogos/whatfitsLogo.png"
+            src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/ProjectLogos/whatfitsLogo.png"
             alt
           />
         </div>
@@ -66,7 +66,7 @@
         <div class="col-md-7">
           <img
             class="img-fluid rounded mb-3 mb-md-0"
-            src="./../../assets/images/ProjectImages/ProjectLogos/greyMessagingLogo.png"
+            src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/ProjectLogos/greyMessagingLogo.png"
             alt
           />
         </div>
@@ -84,7 +84,7 @@
         <div class="col-md-7">
           <img
             class="img-fluid rounded mb-3 mb-md-0"
-            src="./../../assets/images/ProjectImages/ProjectLogos/cookieCodersLogo.png"
+            src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/ProjectLogos/cookieCodersLogo.png"
             alt
           />
         </div>

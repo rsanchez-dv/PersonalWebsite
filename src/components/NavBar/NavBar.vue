@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="md" type="dark" id="nav-color">
     <b-navbar-brand left to="/" aria-label="Homepage">
-      <img id="logo" src="./../../assets/images/logo.png" alt="Website Logo" />
+      <img id="logo" src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/logo.png" alt="Website Logo" />
     </b-navbar-brand>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
@@ -23,8 +23,8 @@
 </template>
 <script>
 export default {
-  name: "NavBar"
-};
+  name: 'NavBar'
+}
 </script>
 <style>
 #nav-color {

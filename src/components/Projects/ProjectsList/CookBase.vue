@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>CookBase: An online recipe management system</h1>
-    <img src="../../../assets/images/ProjectImages/CookBase/homepage.png" alt="Mockup homepage">
+    <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookBase/homepage.png" alt="Mockup homepage">
     <figure class="center">
       <figcaption>Fig. 1 - Mockup of the homepage. Not finalized.</figcaption>
     </figure>
@@ -30,7 +30,7 @@
       </b-row>
       <br>
       <b-row class="center">
-        <a href="https://github.com/Zyxel-1/CookBase">Click here for more about CookBase</a><i class="fa fa-link"
+        <a href="https://github.com/rsanchez-dv/CookBase">Click here for more about CookBase</a><i class="fa fa-link"
           aria-hidden="true"></i>
       </b-row>
     </div>
