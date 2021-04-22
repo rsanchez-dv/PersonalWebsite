@@ -3,7 +3,7 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="column">© 2019 - Roberto Sanchez</div>
+          <div class="column">© 2021 - Roberto Sanchez</div>
           <div class="columnRight">Last Modified on: {{msg}}</div>
         </div>
       </div>
@@ -15,7 +15,7 @@
 export default {
   data() {
     return {
-      msg: "October 2019"
+      msg: "April 2021"
     };
   },
   created() {},
