@@ -14,7 +14,7 @@
           <b-nav-item href="/#Projects">Projects</b-nav-item>
           <b-nav-item href="/#Contact">Contact</b-nav-item>
           <b-nav-item
-            href="https://drive.google.com/open?id=1OG18DXxBKq6timYqfFff27zbGUIf8z1y"
+            href="https://rsanchez-dv.github.io/Roberto-Sanchez-Portfolio/"
           >Resume</b-nav-item>
         </b-navbar-nav>
       </b-navbar-nav>
@@ -30,7 +30,7 @@ export default {
 #nav-color {
   position: absolute;
   z-index: 100;
-  /*background-color: #2b3033;*/
+  background-color: #2b3033;
 }
 #logo {
   height: 2em;
