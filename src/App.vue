@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
+    <br>
+        <br>
+
     <router-view></router-view>
     <back-to-top bottom="50px" right="50px" visibleoffset="200">
       <button

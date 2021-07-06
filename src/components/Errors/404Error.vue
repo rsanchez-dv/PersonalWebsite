@@ -4,7 +4,7 @@
     <br>
     <h1>Error 404 - Page Not Found</h1>
     <br>
-    <img src="../../assets/images/ErrorImages/lost.gif" alt="Go home gif" class="animated-gif">
+
     <!--
     <br>
     <br>
