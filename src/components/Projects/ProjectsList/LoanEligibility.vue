@@ -47,25 +47,28 @@
     <div>
       <h2>Initial Analysis</h2>
       <span class="subTitle">Whats all this about?</span>
-      <p>Data provided by Dream House Financing came in the form.
+      <p>Dream House Financing provided a data set that contained aprox. 614 rows of data and 13 features. 
+         
       </p>
+      <img src="https://personalwebsiteimages.s3.us-west-1.amazonaws.com/images/ProjectImages/merlin/originalDataSample.PNG" alt="Sports, Running, Lifting, and hiking.">
+      
     </div>
     <div>
       <h2>Data Preprocessing</h2>
       <span class="subTitle">Whats all this about?</span>
-      <p>Dream Housing Finance is in a dire need to automate their loan application decisioning. They need a machine learning solution
+      <p>TODO
       </p>
     </div>
     <div>
       <h2>Model Training</h2>
       <span class="subTitle">Whats all this about?</span>
-      <p>Dream Housing Finance is in a dire need to automate their loan application decisioning. They need a machine learning solution
+      <p>TODO
       </p>
     </div>
     <div>
       <h2>Conclusion</h2>
       <span class="subTitle">Whats all this about?</span>
-      <p>Dream Housing Finance is in a dire need to automate their loan application decisioning. They need a machine learning solution
+      <p>TODO
       </p>
     </div>
   </div>

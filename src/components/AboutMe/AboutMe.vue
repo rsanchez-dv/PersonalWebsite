@@ -6,10 +6,8 @@
         <!-- <span class="sectionSubTitle">This is subtitle</span> -->
         <div class="row">
           <div class="col-lg-10 mx-auto centerBody">
-            <p class="lead mb-5 ">I'm a recent graduate from California State University, Long Beach seeking an entry
-              level position in either software engineering or web development. I've been programming since 2012 in C++ and Java then
-              picking up web development during my later university life. Being fresh out of college my focus is on learning as much as I can to improve
-              my skill set. Here are some small snippets on my interests:
+            <p class="lead mb-5 ">I'm a graduate from California State University, Long Beach. I've been programming since 2012 in C++ and Java then
+              picking up web development during my later university life. Currently persuing my interests in Data Science. Here are some small snippets on my interests:
             </p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skillItem">

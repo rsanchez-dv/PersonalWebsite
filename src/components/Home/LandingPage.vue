@@ -13,7 +13,7 @@
         data-sal-delay="700"
         data-sal-duration="1200"
         data-sal-easing="ease-out-bounce"
-      >Software Engineer / Web Developer</h4>
+      >Machine Learning Developer / Software Engineer / Full-Stack Developer</h4>
       <div class="arrow bounce">
         <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
       </div>
