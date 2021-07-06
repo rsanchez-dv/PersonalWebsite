@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Whatfits: A fitness social media application</h1>
-    <img src="../../../assets/images/ProjectImages/Whatfits/whatfitsProject.png" fluid-grow alt="Image of the website Whatfits imposed on a fake mac book air">
+    <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/whatfitsProject.png" fluid-grow alt="Image of the website Whatfits imposed on a fake mac book air">
     <br>
     <br>
     <div class="center">
@@ -58,7 +58,7 @@
         later expanded
         by the team as we thought of ways to add additional value to the solution.
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/proposal.png" alt="Screenshot of the project proposal">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/proposal.png" alt="Screenshot of the project proposal">
       <figure class="center">
         <figcaption>Fig. 1 - Original proposal that was approved by instructor. Many things will change within the
           upcoming weeks.</figcaption>
@@ -67,7 +67,7 @@
     <div>
       <h2>Problem Statement</h2>
       <span class="subTitle">Whats the problem?</span>
-      <img src="../../../assets/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/sedentary.png" alt="Figure man being lazy infront of tv with junk food.">
       <figure class="center">
         <figcaption>Fig. 2 - Society</figcaption>
       </figure>
@@ -83,36 +83,36 @@
     <div>
       <h2>Our Solution</h2>
       <span class="subTitle">Let's try solving this</span>
-      <img src="../../../assets/images/ProjectImages/Whatfits/Idea.png" alt="You plus a laptop or phone you can social activity">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/Idea.png" alt="You plus a laptop or phone you can social activity">
       <p>We wanted to create a web application based around social media and finding either other people to workout in
         your area or to find
         activities that require physical excersize such as hiking or rock climbing. This is what we came up with:</p>
       <h3>Find people in your area</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/search.png" alt="Image of a man waving to others">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/search.png" alt="Image of a man waving to others">
       <p>Current scope reduces the test market to Los Angeles and Orange Counties. If you registered an address within
         this area you
         can find other people within the same area. You can filter based on how close they are or by skill level
         (Beginner, Intermidiate, or Advance)
       </p>
       <h3>Chat and Personality</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/feature.png" alt="Customize your profile and Chat online">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/feature.png" alt="Customize your profile and Chat online">
       <p>We create tools to customize your profile with information about you to let others know what your goals are
         and give
         a better idea who you are as a person. We also gave you the ability to communicate with possible matches to
         schedule activities.
       </p>
       <h3>Activities</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/activities.png" alt="Sports, Running, Lifting, and hiking.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/activities.png" alt="Sports, Running, Lifting, and hiking.">
       <p>When meeting new people you can schedule a wide varaity of activies. Its catered to what you are willling to
         do.</p>
       <h3>Track your growth and others</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/rate.png" alt="Logging your workouts and rating other people.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/rate.png" alt="Logging your workouts and rating other people.">
       <p>Provided is tools to track your workouts and see how you grown when you started. It also allows others to see
         your workout style. In addition
         you can rate the people you where around based on your personal experience with them.
       </p>
       <h3>Make lifelong friends</h3>
-      <img src="../../../assets/images/ProjectImages/Whatfits/follow.png" alt="You can follow other people on the webapp.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/follow.png" alt="You can follow other people on the webapp.">
       <p>You can follow the people you enjoyed and can continue to communicate with them easily.</p>
     </div>
     <div>
@@ -146,7 +146,7 @@
           <li>Ratings / ReviewS (TRIMMED) - Users review other people they met up with.</li>
         </ul>
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/time.png" alt="An image of a typical meeting.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/time.png" alt="An image of a typical meeting.">
       <figure class="center">
         <figcaption>Fig.3 - "To achieve great things, two things are needed: a plan, and not quite enough time." –
           Leonard Bernstein</figcaption>
@@ -170,7 +170,7 @@
           <li>Strong Password Enforcer (Scope Creep #2)</li>
         </ul>
       </p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/estimations.png" alt="Project Planning Image">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/estimations.png" alt="Project Planning Image">
       <figure class="center">
         <figcaption>Fig.4 - Don't forget the estimations!</figcaption>
       </figure>
@@ -195,16 +195,16 @@
         to finish their
         part. Despite our efforts sprint 1 was rough.
       </p>
-      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/BasicRequirements.jpg" alt="Photo of requirements for Registration">
+      <img class="cameraImage" src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/BasicRequirements.jpg" alt="Photo of requirements for Registration">
       <figure class="center">
         <figcaption>Fig.5 - Whiteboarding requirements for sprint 1 tasks.</figcaption>
       </figure>
-      <img class="" src="../../../assets/images/ProjectImages/Whatfits/architecture.jpg" alt="Whiteboard image of the entire architecture.">
+      <img class="" src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/architecture.jpg" alt="Whiteboard image of the entire architecture.">
       <figure class="center">
         <figcaption>Fig.6 - Whiteboarding a basic overview of our project. This was an old design since we moved to
           Vue.js, WebAPI, and MS SQL.</figcaption>
       </figure>
-      <img class="cameraImage" src="../../../assets/images/ProjectImages/Whatfits/profile.jpg" alt="Photo of a whiteboard showing the user profile UI elements.">
+      <img class="cameraImage" src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/profile.jpg" alt="Photo of a whiteboard showing the user profile UI elements.">
       <figure class="center">
         <figcaption>Fig.7 - A snapshot of our brainstorming session where we were designing UI elements.</figcaption>
       </figure>
@@ -215,7 +215,7 @@
       </p>
       <p>Sprint 3 was a rush to get everything working together. We ran into issues such as configuring routes so our
         front-end and back-ends communicate effectively on the server.</p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/dev.png" alt="Screenshot of github commits.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/dev.png" alt="Screenshot of github commits.">
       <figure class="center">
         <figcaption>Fig.8 - Busy semester</figcaption>
       </figure>
@@ -223,7 +223,7 @@
     <div>
       <h2>Final MVP</h2>
       <span class="subTitle">Months of work concluded</span>
-      <img src="../../../assets/images/ProjectImages/Whatfits/Whatfits.png" alt="Image of the homepage">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/Whatfits.png" alt="Image of the homepage">
       <figure class="center">
         <figcaption>Fig. 9 - A screenshot of the finished homescreen. I wanted to use a video for the hero menu but ran
           out of time.</figcaption>
@@ -356,7 +356,7 @@
       <p>Designed and built by me, the user management console is used exclusivly by an administrator to manage users.
         For creating new users we reuse the fields for registration however now sporting a new dropdown to set up
         whether its a general user or another admin.</p>
-      <img src="../../../assets/images/ProjectImages/Whatfits/adminUser.png" alt="Screenshot of creating new users.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/Whatfits/adminUser.png" alt="Screenshot of creating new users.">
       <figure class="center">
         <figcaption>Fig. 24 - Creating a new user.</figcaption>
       </figure>

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>CookieCoders: An informative page</h1>
-    <img src="../../../assets/images/ProjectImages/CookieCoders/cookiecoders.png" alt="Image of website on a fake mac book air">
+    <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/cookiecoders.png" alt="Image of website on a fake mac book air">
     <br>
     <br>
     <div class="center">
@@ -27,7 +27,7 @@
       </b-row>
       <br>
       <b-row class="center">
-        <a href="https://github.com/Zyxel-1/CookieCoders">For more about CookieCoders</a><i class="fa fa-link"
+        <a href="https://github.com/rsanchez-dv/CookieCoders">For more about CookieCoders</a><i class="fa fa-link"
           aria-hidden="true"></i>
       </b-row>
     </div>
@@ -46,36 +46,36 @@
         frameworks to
         incorporate HTML, CSS, Javascript, PHP, and MySQL to make a functional website. We decided to arrange the
         website into muliple pages each depicting certain information that would be useful for the visitor.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/sitemap.png" alt="Site Map image">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/sitemap.png" alt="Site Map image">
       <figure class="center">
         <figcaption>Fig. 1 - Sitemap of the website.</figcaption>
       </figure>
       <p>The following diagram illustrates the validation process for the two forms on the website. Each form validates
         that data on both the client side using Javascript and then handled in PHP before being stored in the database.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/flowchart.png" alt="Flow chart of validations.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/flowchart.png" alt="Flow chart of validations.">
       <figure class="center">
         <figcaption>Fig. 2 - A workflow of validation.</figcaption>
       </figure>
       <h3>Mockups</h3>
       <p>These are mockups to illustrate the solution to our instructor and client. Using FluidUI's tools to create
         these mockups it gave a framework for each team members to design and build thier parts for the project.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/homepage.png" alt="Mockup of the homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/homepage.png" alt="Mockup of the homepage.">
       <figure class="center">
         <figcaption>Fig. 3 - Draft of the homepage used for submission to instructor and client.</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/description.png" alt="Mockup of the description page.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/description.png" alt="Mockup of the description page.">
       <figure class="center">
         <figcaption>Fig. 4 - Draft of the description page.</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/Register.png" alt="Mockup of the registration page.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/Register.png" alt="Mockup of the registration page.">
       <figure class="center">
         <figcaption>Fig. 5 - Draft of the registration page.</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/qanda.png" alt="Mockup of the Q and A page.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/qanda.png" alt="Mockup of the Q and A page.">
       <figure class="center">
         <figcaption>Fig. 6 - Draft of the the questions and answers page.</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/about.png" alt="Mockup of the about page.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/about.png" alt="Mockup of the about page.">
       <figure class="center">
         <figcaption>Fig. 7 - Draft of the about section.</figcaption>
       </figure>
@@ -84,29 +84,29 @@
     <div>
       <h2>Final MVP</h2>
       <span class="subTitle">Eventually</span>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/cookiecodersHome.png" alt="Final Homepage">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/cookiecodersHome.png" alt="Final Homepage">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Mukesh Sehdev.</figcaption>
       </figure>
       <p>The project was hosted on the school's webserver used in the class. During our presentation we had to
         walkthrough each page and discuss the purpose of each page.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/DesciptionFinal.png" alt="Description Final page">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/DesciptionFinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Howard Cho.</figcaption>
       </figure>
       <p>The description page hosted several sample games made in javascript and videos on what content people will be
         doing in these camps.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/registerFinal.png" alt="Description Final page">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/registerFinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Roberto Sanchez.</figcaption>
       </figure>
       <p>How to register for the event.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/qandafinal.png" alt="Description Final page">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/qandafinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by Jennifer Nguyen.</figcaption>
       </figure>
       <p>Ask addition questions incase the established q and a didn't answer.</p>
-      <img src="../../../assets/images/ProjectImages/CookieCoders/aboutFinal.png" alt="Description Final page">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/CookieCoders/aboutFinal.png" alt="Description Final page">
       <figure class="center">
         <figcaption>Fig. 8 - Final homepage, Designed and built by George Cheng.</figcaption>
       </figure>

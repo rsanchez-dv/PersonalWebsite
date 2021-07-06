@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Personal Website: A showcase of projects and information</h1>
-    <img src="..//..//..//assets/images/ProjectImages/PersonalWebsite/personalScreen.png" alt="Website on a mac.">
+    <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/personalScreen.png" alt="Website on a mac.">
     <figure class="center">
       <figcaption>Fig. 1 - Current homepage.</figcaption>
     </figure>
@@ -30,7 +30,7 @@
       </b-row>
       <br>
       <b-row class="center">
-        <a href="https://github.com/Zyxel-1/PersonalWebsite/wiki/Current-Updates">Click here for more about my Personal Website</a><i class="fa fa-link"
+        <a href="https://github.com/rsanchez-dv/PersonalWebsite/wiki/Current-Updates">Click here for more about my Personal Website</a><i class="fa fa-link"
           aria-hidden="true"></i>
       </b-row>
     </div>
@@ -43,25 +43,25 @@
       <h2>History</h2>
       <span class="subTitle">Never satisfied</span>
       <p>This project technically started back of the beginning of 2018 as a way to test out Github and learn basic commits and pushes. As time went on I started putting some stuff on here but I didn't really put too much effort until the beginning of October.</p>
-      <img src="../../../assets/images/ProjectImages/PersonalWebsite/sample.gif" alt="First version of the website homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/sample.gif" alt="First version of the website homepage.">
       <figure>
         <figcaption>Fig. 1 - First version of the website. Decided to make the video full screen.</figcaption>
       </figure>
       <p></p>
-      <img src="../../../assets/images/ProjectImages/PersonalWebsite/mobile.gif" alt="First version of the website homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/mobile.gif" alt="First version of the website homepage.">
       <figure>
         <figcaption>Fig. 2 - Website now responsive to mobile browser.</figcaption>
       </figure>
       <p></p>
-      <img src="../../../assets/images/ProjectImages/PersonalWebsite/error.gif" alt="First version of the website homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/error.gif" alt="First version of the website homepage.">
       <figure>
         <figcaption>Fig. 3 - Custom Error page. Note: Netlify interupts this for some reason.</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/PersonalWebsite/Nov12Version.gif" alt="Latest version of the website homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/Nov12Version.gif" alt="Latest version of the website homepage.">
       <figure>
         <figcaption>Fig. 4 - Redid the homepage. Looks more modern and sleek. Broke compatibility with mobile though...</figcaption>
       </figure>
-      <img src="../../../assets/images/ProjectImages/PersonalWebsite/Jan09Version.gif" alt="Latest version of the website homepage.">
+      <img src="https://personalwebsiteimages.s3-us-west-1.amazonaws.com/images/ProjectImages/PersonalWebsite/Jan09Version.gif" alt="Latest version of the website homepage.">
       <figure>
         <figcaption>Fig. 5 - Redid homepage to be more modern and mobile friendly</figcaption>
       </figure>
