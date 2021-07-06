@@ -41,6 +41,11 @@ export default new Router({
       component: () => import('@/components/Projects/ProjectsList/CookieCoders')
     },
     {
+      path: '/loaneligibility',
+      name: 'LoanEligibility',
+      component: () => import('@/components/Projects/ProjectsList/LoanEligibility')
+    },
+    {
       path: '*',
       name: 'NotFound',
       component: () => import('@/components/Errors/404Error')

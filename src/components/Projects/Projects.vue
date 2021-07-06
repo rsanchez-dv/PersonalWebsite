@@ -6,26 +6,26 @@
       <p
         class="sectionSubTitle"
       >So of the projects that I have been working on either in school or on my freetime. All of these projects can be found on GitHub on their respective page.</p>
-      <!--
       <div class="row">
         <div class="col-md-7">
+
           <img
             class="img-fluid rounded mb-3 mb-md-0"
-            src="./../../assets/images/ProjectImages/ProjectLogos/cookBaseLogo.png"
+            src="https://personalwebsiteimages.s3.us-west-1.amazonaws.com/images/ProjectImages/merlin/merlin.png"
             alt
           />
+
         </div>
         <div class="col-md-5">
-          <h3>CookBase</h3>
+          <h3>Merlin - A ML Loan Eligibility</h3>
           <p>
-            CookBase is a single page web application designed to organize, discover, and rate recipes. By creating
-            such a platform, we can create a community of chefs ranging from amateurs to professionals.
+            Merlin is a Machine Learning model that is used for Dream House Financing to determine loan eligibility.
           </p>
-          <p>Built using: .NET Core, MS SQL, Vue.js, and Foundation</p>
-          <b-link to="CookBase" class="btn btn-primary">View Project</b-link>
+          <p>Built using: Python, Jupyter Notebook, Scikit Learn, Pandas, Seaborn, and Numpy.</p>
+          <b-link to="LoanEligibility" class="btn btn-primary">View Project</b-link>
         </div>
       </div>
-      -->
+
       <div class="row">
         <div class="col-md-7">
           <img

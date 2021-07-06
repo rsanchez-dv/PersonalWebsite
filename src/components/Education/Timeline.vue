@@ -1,8 +1,34 @@
 <template>
   <section id="cd-timeline" class="cd-container">
+     <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie"></div>
+      <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Union Bank</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Front-End Developer
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            March 2020 - March 2021
+          </span>
+        </div>
+        <p>Colaborated with the Risk Department on gathering requirements and implementing solutions on SharePoint.</p>
+        <ul class="content-skills">
+          <li>SharePoint</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>Nintex</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <!-- cd-timeline-content -->
+    </div>
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-picture"></div>
-
       <div class="cd-timeline-content">
         <h2>Talent Path Consulting</h2>
         <div class="timeline-content-info">
